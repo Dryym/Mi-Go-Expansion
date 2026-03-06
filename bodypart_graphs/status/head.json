@@ -1,0 +1,39 @@
+[
+  {
+    "type": "body_graph",
+    "id": "head",
+    "parent_bodypart": "head",
+    "fill_sym": "#",
+    "fill_color": "white",
+    "rows": [
+      "               1  1 1  1                ",
+      "          1  2221212121222  1           ",
+      "           12222122222122221            ",
+      "        1 2212222221222222122 1         ",
+      "         122212221212122212221          ",
+      "          1222212222222122221           ",
+      "          3221441221221441223           ",
+      "       1 334414221212122414433 1        ",
+      "        13314414444144441441331         ",
+      "         131444414444414444131          ",
+      "          3314444144414444133           ",
+      "          3334144144414414333           ",
+      "           334144441444414433           ",
+      "           33331554145513333            ",
+      "            335555555555533             ",
+      "             3355555555533              ",
+      "            665555555555566             ",
+      "          66666  55555  66666           ",
+      "          66666666 5 66666666           ",
+      "          666666666 666666666           "
+    ],
+    "parts": {
+      "1": { "sub_body_parts": [ "mi_go_head_antennae" ], "select_color": "red" },
+      "2": { "sub_body_parts": [ "mi_go_head_vertex" ], "select_color": "red" },
+      "3": { "sub_body_parts": [ "mi_go_head_gena" ], "select_color": "red" },
+      "4": { "sub_body_parts": [ "mi_go_head_frons" ], "select_color": "red" },
+      "5": { "sub_body_parts": [ "mi_go_head_clypeus" ], "select_color": "red" },
+      "6": { "sub_body_parts": [ "mi_go_upper_thorax" ], "select_color": "red" }
+    }
+  }
+]

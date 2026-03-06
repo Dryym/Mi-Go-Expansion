@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sulfur",
+    "type": "vitamin",
+    "vit_type": "vitamin",
+    "name": { "str": "Sulfur" },
+    "min": 0,
+    "max": 24000,
+    "weight_per_unit": "32 mg 65 μg",
+    "rate": "60 m"
+  },
+  {
+    "id": "sulfur_dioxide",
+    "type": "vitamin",
+    "vit_type": "vitamin",
+    "name": { "str": "Sulfur Dioxide" },
+    "min": 0,
+    "max": 24000,
+    "flags": [ "OBSOLETE" ],
+    "rate": "60 m"
+  },
+  {
+    "id": "sulfur_trioxide",
+    "type": "vitamin",
+    "vit_type": "vitamin",
+    "name": { "str": "Sulfur Trioxide" },
+    "min": 0,
+    "max": 24000,
+    "flags": [ "OBSOLETE" ],
+    "rate": "60 m"
+  },
+  {
+    "id": "water",
+    "type": "vitamin",
+    "vit_type": "counter",
+    "name": { "str": "Water" },
+    "min": 0,
+    "max": 24000,
+    "weight_per_unit": "18 mg 15 μg",
+    "rate": "60 m"
+  }
+]

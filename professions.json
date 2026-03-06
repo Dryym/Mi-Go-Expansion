@@ -1,0 +1,63 @@
+[
+  {
+    "type": "profession",
+    "id": "mi_go_scout",
+    "name": "Mi-go Scout",
+    "points": 0,
+    "description": "-- Add description here --",
+    "chargen_allow_npc": false,
+    "traits": [ "ILLITERATE", "MIGOSCOUT" ],
+    "whitelist_hobbies": true,
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "mi_go_carry_pod" },
+          { "item": "biofoam", "charges": 10 },
+          { "item": "plasma_disinfectant_pod", "charges": 10 },
+          { "item": "hallucinogen_pod", "charges": 10 },
+          { "item": "biofoam", "charges": 10 },
+          { "item": "plasma_disinfectant_pod", "charges": 10 },
+          { "item": "hallucinogen_pod", "charges": 10 },
+          { "item": "biofoam", "charges": 10 },
+          { "item": "plasma_disinfectant_pod", "charges": 10 },
+          { "item": "hallucinogen_pod", "charges": 10 },
+          { "item": "warp_carrier" }
+        ]
+      }
+    },
+    "hobbies": [  ]
+  },
+  {
+    "type": "profession",
+    "id": "unemployed",
+    "name": "Mi-go Drone",
+    "points": 0,
+    "description": "-- Add description here --",
+    "chargen_allow_npc": false,
+    "traits": [ "ILLITERATE", "MIGODRONE" ],
+    "whitelist_hobbies": true,
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "mi_go_carry_pod" },
+          { "item": "biofoam", "charges": 10 },
+          { "item": "plasma_disinfectant_pod", "charges": 10 },
+          { "item": "hallucinogen_pod", "charges": 10 },
+          { "item": "biofoam", "charges": 10 },
+          { "item": "plasma_disinfectant_pod", "charges": 10 },
+          { "item": "hallucinogen_pod", "charges": 10 },
+          { "item": "biofoam", "charges": 10 },
+          { "item": "plasma_disinfectant_pod", "charges": 10 },
+          { "item": "hallucinogen_pod", "charges": 10 },
+          { "item": "warp_carrier" }
+        ]
+      }
+    },
+    "hobbies": [  ]
+  },
+  {
+    "type": "profession_group",
+    "id": "adult_basic_background",
+    "professions": [  ]
+  }
+]

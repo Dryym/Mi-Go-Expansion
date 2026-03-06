@@ -1,0 +1,48 @@
+[
+  {
+    "type": "body_graph",
+    "id": "full_body",
+    "fill_sym": "#",
+    "fill_color": "white",
+    "rows": [
+      "                  1 1                   ",
+      "            F   1 111 1   G             ",
+      "          FFF   1111111   GGG           ",
+      "         FFFF   1111111   GGGG          ",
+      "        FFFFFF   11111   GGGGGG         ",
+      "       FFFFFFFF   111   GGGGGGGG        ",
+      "             FFF 22222 GGG              ",
+      "                2222222                 ",
+      "            333322222227777             ",
+      "         3333   2222222   7777          ",
+      "       33     55222222299    777        ",
+      "      44     55  22222  99     88       ",
+      "      4 4  55   BB222DD   99  8 8       ",
+      "          66   BBB222DDD   AA           ",
+      "          6 6 BBB  2  DDD A A           ",
+      "             BBB B   D DDD              ",
+      "            BBBB  C E  DDDD             ",
+      "            CC BB     DD EE             ",
+      "            C  CC     EE  E             ",
+      "               C       E                "
+    ],
+    "parts": {
+      "1": { "body_parts": [ "mi_go_head" ], "select_color": "red", "nested_graph": "head" },
+      "2": { "body_parts": [ "mi_go_thorax" ], "select_color": "red", "nested_graph": "torso" },
+      "3": { "body_parts": [ "mi_go_upper_arm_r" ], "select_color": "red", "nested_graph": "arm_r" },
+      "4": { "body_parts": [ "mi_go_upper_claw_r" ], "select_color": "red", "nested_graph": "hand_r" },
+      "5": { "body_parts": [ "mi_go_upper_arm_l" ], "select_color": "red", "nested_graph": "arm_l" },
+      "6": { "body_parts": [ "mi_go_upper_claw_l" ], "select_color": "red", "nested_graph": "hand_l" },
+      "7": { "body_parts": [ "mi_go_lower_arm_r" ], "select_color": "red", "nested_graph": "leg_r" },
+      "8": { "body_parts": [ "mi_go_lower_claw_r" ], "select_color": "red", "nested_graph": "foot_r" },
+      "9": { "body_parts": [ "mi_go_lower_arm_l" ], "select_color": "red", "nested_graph": "leg_l" },
+      "A": { "body_parts": [ "mi_go_lower_claw_l" ], "select_color": "red", "nested_graph": "foot_l" },
+      "B": { "body_parts": [ "mi_go_legs_r" ], "select_color": "red", "nested_graph": "foot_l" },
+      "C": { "body_parts": [ "mi_go_tarsae_r" ], "select_color": "red", "nested_graph": "foot_l" },
+      "D": { "body_parts": [ "mi_go_legs_l" ], "select_color": "red", "nested_graph": "foot_l" },
+      "E": { "body_parts": [ "mi_go_tarsae_l" ], "select_color": "red", "nested_graph": "foot_l" },
+      "F": { "body_parts": [ "mi_go_wing_r" ], "select_color": "red", "nested_graph": "foot_l" },
+      "G": { "body_parts": [ "mi_go_wing_l" ], "select_color": "red", "nested_graph": "foot_l" }
+    }
+  }
+]

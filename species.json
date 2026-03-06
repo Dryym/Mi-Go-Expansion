@@ -1,0 +1,8 @@
+[
+  {
+    "type": "SPECIES",
+    "id": "MIGO",
+    "copy-from": "MIGO",
+    "extend": { "flags": [ "ACIDPROOF" ] }
+  }
+]

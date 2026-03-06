@@ -1,0 +1,32 @@
+[
+  {
+    "type": "attack_vector",
+    "id": "vector_mi_go_claw",
+    "limbs": [ "mi_go_upper_claw_r", "mi_go_upper_claw_l", "mi_go_lower_claw_r", "mi_go_lower_claw_l" ],
+    "contact_area": [
+      "mi_go_upper_dactyls_r",
+      "mi_go_upper_pollex_r",
+      "mi_go_upper_dactyls_l",
+      "mi_go_upper_pollex_l",
+      "mi_go_lower_dactyls_r",
+      "mi_go_lower_pollex_r",
+      "mi_go_lower_dactyls_l",
+      "mi_go_lower_pollex_l"
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "tech_mi_go_claw",
+    "name": "Claw",
+    "crit_ok": true,
+    "unarmed_allowed": true,
+    "messages": [ "You claw at %s", "<npcname> claws at %s" ],
+    "description": "A basic claw attack",
+    "attack_vectors": [ "vector_mi_go_claw" ],
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scaling-stat": "unarmed", "scale": 3 },
+      { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 0.5 },
+      { "stat": "damage", "type": "bash", "scaling-stat": "unarmed", "scale": 0.06 }
+    ]
+  }
+]

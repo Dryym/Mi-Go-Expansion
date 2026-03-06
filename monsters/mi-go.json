@@ -1,0 +1,37 @@
+[
+  {
+    "id": "mon_mi_go",
+    "type": "MONSTER",
+    "copy-from": "mon_mi_go"
+  },
+  {
+    "id": "mon_mi_go_slaver",
+    "type": "MONSTER",
+    "copy-from": "mon_mi_go_slaver"
+  },
+  {
+    "id": "mon_mi_go_surgeon",
+    "type": "MONSTER",
+    "copy-from": "mon_mi_go_surgeon"
+  },
+  {
+    "id": "mon_mi_go_guard",
+    "type": "MONSTER",
+    "copy-from": "mon_mi_go_guard"
+  },
+  {
+    "id": "mon_mi_go_myrmidon",
+    "type": "MONSTER",
+    "copy-from": "mon_mi_go_myrmidon"
+  },
+  {
+    "id": "mon_mi_go_captured",
+    "type": "MONSTER",
+    "copy-from": "mon_mi_go_captured"
+  },
+  {
+    "id": "mon_mi_go_scout",
+    "type": "MONSTER",
+    "copy-from": "mon_mi_go_scout"
+  }
+]

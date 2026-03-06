@@ -1,0 +1,53 @@
+[
+  {
+    "id": "mi_go_carry_pod",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "carry pod" },
+    "description": "A large resinous pod filled with a warm viscous fluid that suspends any items stored in it. A foul odor emanates from the pod when its opening is exposed to the air and you get the feeling that food stored within would spoil much quicker than usual. One of the exterior surfaces of the pod is covered in a series of setae which allow it to be stuck to your body without straps.",
+    "weight": "5450 g",
+    "volume": "16000 ml",
+    "material": [ "alien_resin" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "warmth": 10,
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "70 L",
+        "max_contains_weight": "70 kg",
+        "max_item_length": "60 cm",
+        "magazine_well": "12 L",
+        "moves": 450,
+        "spoil_multiplier": 2.0,
+        "transparent": true
+      }
+    ],
+    "flags": [ "BELTED", "WATERPROOF", "OVERSIZE" ],
+    "max_worn": 1,
+    "armor": [
+      {
+        "encumbrance": [ 10, 40 ],
+        "coverage": 50,
+        "covers": [ "mi_go_thorax" ],
+        "specifically_covers": [ "mi_go_upper_thorax" ]
+      }
+    ]
+  },
+  {
+    "id": "warp_carrier",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "name": { "str": "resinous warp chamber" },
+    "description": "A translucent resinous pod which warps the light passing through it in strange ways that defy Earthly material science. Objects held within appear much smaller on the inside than they appear on the outside.",
+    "weight": "2000 g",
+    "volume": "6 L",
+    "material": [ "alien_resin" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "properties": { "creature_size_capacity": "HUGE" },
+    "use_action": [ "CAPTURE_MONSTER_ACT" ],
+    "flags": [ "TRADER_AVOID", "UNBREAKABLE" ]
+  }
+]

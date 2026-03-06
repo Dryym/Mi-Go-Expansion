@@ -1,0 +1,32 @@
+[
+  {
+    "type": "material",
+    "id": "mi_go_carapace_light",
+    "name": "Light Mi-go Carapace",
+    "density": 10,
+    "specific_heat_liquid": 1.8,
+    "specific_heat_solid": 1.8,
+    "latent_heat": 50,
+    "chip_resist": 15,
+    "dmg_adj": [ "scratched", "cut", "cracked", "shattered" ],
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "gouged",
+    "burn_products": [ [ "corpse_ash", 0.035 ] ],
+    "resist": { "bash": 4, "cut": 5, "bullet": 4, "electric": 2, "acid": 20, "heat": 1 }
+  },
+  {
+    "type": "material",
+    "id": "mi_go_carapace_medium",
+    "name": "Mi-go Carapace",
+    "density": 10,
+    "specific_heat_liquid": 1.8,
+    "specific_heat_solid": 1.8,
+    "latent_heat": 50,
+    "chip_resist": 15,
+    "dmg_adj": [ "scratched", "cut", "cracked", "shattered" ],
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "gouged",
+    "burn_products": [ [ "corpse_ash", 0.035 ] ],
+    "resist": { "bash": 4, "cut": 12, "bullet": 10, "electric": 2, "acid": 20, "heat": 1 }
+  }
+]

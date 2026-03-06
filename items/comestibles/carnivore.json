@@ -1,0 +1,1347 @@
+[
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "froglegs",
+    "name": { "str_sp": "frog legs (pair)" },
+    "copy-from": "froglegs",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "froglegs_cooked",
+    "name": { "str_sp": "cooked frog legs (pair)" },
+    "copy-from": "froglegs_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "froglegs_smoked",
+    "name": { "str_sp": "smoked frog legs (pair)" },
+    "copy-from": "froglegs_smoked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "fish",
+    "name": { "str": "fillet of fish", "str_pl": "fillets of fish" },
+    "copy-from": "fish",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "fish_scrap",
+    "name": { "str": "scrap of fish", "str_pl": "scraps of fish" },
+    "copy-from": "fish_scrap",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "fish_scrap_cooked",
+    "name": { "str": "cooked scrap of fish", "str_pl": "cooked scraps of fish" },
+    "copy-from": "fish_scrap_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "fish_cooked",
+    "name": { "str_sp": "cooked fish" },
+    "copy-from": "fish_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "lobster",
+    "name": { "str": "chunk of lobster meat", "str_pl": "chunks of lobster meat" },
+    "copy-from": "lobster",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "lobster_cooked",
+    "name": { "str_sp": "cooked lobster" },
+    "copy-from": "lobster_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mollusk",
+    "name": { "str": "fillet of mollusk", "str_pl": "fillets of mollusk" },
+    "copy-from": "mollusk",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mollusk_cooked",
+    "name": { "str_sp": "cooked mollusk" },
+    "copy-from": "mollusk_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "gastropod_purged",
+    "name": { "str_sp": "purged gastropods" },
+    "copy-from": "gastropod_purged",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "gastropod_cooked",
+    "name": { "str_sp": "cooked gastropods" },
+    "copy-from": "gastropod_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "hstomach",
+    "name": { "str": "human stomach" },
+    "copy-from": "hstomach",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "hstomach_large",
+    "name": { "str": "large human stomach" },
+    "copy-from": "hstomach_large",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_fat",
+    "name": { "str": "chunk of human fat", "str_pl": "chunks of human fat" },
+    "copy-from": "human_fat",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_tallow",
+    "name": { "str_sp": "human tallow" },
+    "copy-from": "human_tallow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_flesh",
+    "name": { "str_sp": "human flesh" },
+    "copy-from": "human_flesh",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_cooked",
+    "name": { "str_sp": "cooked creep" },
+    "copy-from": "human_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "pepperhuman",
+    "name": { "str_sp": "peppered person" },
+    "copy-from": "pepperhuman",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat",
+    "name": { "str": "chunk of meat", "str_pl": "chunks of meat" },
+    "copy-from": "meat",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "animal_blood",
+    "name": { "str_sp": "animal blood" },
+    "copy-from": "animal_blood",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "porkbelly",
+    "name": { "str": "chunk of porkbelly", "str_pl": "chunks of porkbelly" },
+    "copy-from": "porkbelly",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "raw_cured_fatty_meat",
+    "name": { "str": "slab of raw cured porkbelly", "str_pl": "slabs of raw cured porkbelly" },
+    "copy-from": "raw_cured_fatty_meat",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "bacon_uncut",
+    "name": { "str": "large slab of uncut bacon", "str_pl": "large slabs of uncut bacon" },
+    "copy-from": "bacon_uncut",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "raw_curing_fatty_meat_active",
+    "name": { "str": "slab of raw curing porkbelly", "str_pl": "slabs of raw curing porkbelly" },
+    "copy-from": "raw_curing_fatty_meat_active",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_scrap",
+    "name": { "str": "scrap of meat", "str_pl": "scraps of meat" },
+    "copy-from": "meat_scrap",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_meat_scrap",
+    "name": { "str": "scrap of human flesh", "str_pl": "scraps of human flesh" },
+    "copy-from": "human_meat_scrap",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_meat_scrap",
+    "name": { "str": "scrap of demihuman flesh", "str_pl": "scraps of demihuman flesh" },
+    "copy-from": "demihuman_meat_scrap",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_meat",
+    "name": { "str": "chunk of mutant meat", "str_pl": "chunks of mutant meat" },
+    "copy-from": "mutant_meat",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_blood",
+    "name": { "str_sp": "mutant blood" },
+    "copy-from": "mutant_blood",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_meat_scrap",
+    "name": { "str": "scrap of mutant meat", "str_pl": "scraps of mutant meat" },
+    "copy-from": "mutant_meat_scrap",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_human_flesh",
+    "name": { "str_sp": "mutant humanoid meat" },
+    "copy-from": "mutant_human_flesh",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_human_blood",
+    "name": { "str_sp": "mutant human blood" },
+    "copy-from": "mutant_human_blood",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_human_cooked",
+    "name": { "str_sp": "cooked cretin" },
+    "copy-from": "mutant_human_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "peppermutant_human",
+    "name": { "str_sp": "cooked pepper cretin" },
+    "copy-from": "peppermutant_human",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_mutant_tainted",
+    "name": { "str": "chunk of tainted mutant meat", "str_pl": "chunks of tainted mutant meat" },
+    "copy-from": "meat_mutant_tainted",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_mutant_tainted_cooked",
+    "name": { "str_sp": "cooked tainted mutant meat" },
+    "copy-from": "meat_mutant_tainted_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_mutant_tainted_smoked",
+    "name": { "str_sp": "smoked tainted mutant meat" },
+    "copy-from": "meat_mutant_tainted_smoked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "ruined_chunks",
+    "name": { "str_sp": "butchery refuse" },
+    "copy-from": "ruined_chunks",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_cooked",
+    "name": { "str_sp": "cooked meat" },
+    "copy-from": "meat_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "peppermeat",
+    "name": { "str_sp": "cooked pepper meat" },
+    "copy-from": "peppermeat",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_fatty_cooked",
+    "name": { "str_sp": "cooked fatty meat" },
+    "copy-from": "meat_fatty_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "pepperfat",
+    "name": { "str_sp": "cooked pepper fatty meat" },
+    "copy-from": "pepperfat",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_scrap_cooked",
+    "name": { "str": "cooked scrap of meat", "str_pl": "cooked scraps of meat" },
+    "copy-from": "meat_scrap_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "pepperscrap",
+    "name": { "str": "cooked pepper scrap of meat", "str_pl": "cooked pepper scraps of meat" },
+    "copy-from": "pepperscrap",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_meat_cooked",
+    "name": { "str_sp": "cooked mutant meat" },
+    "copy-from": "mutant_meat_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "peppermutant",
+    "name": { "str_sp": "cooked pepper mutant meat" },
+    "copy-from": "peppermutant",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_meat_scrap_cooked",
+    "name": { "str": "cooked scrap of mutant meat", "str_pl": "cooked scraps of mutant meat" },
+    "copy-from": "mutant_meat_scrap_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "pepperscrap_mutant",
+    "name": { "str": "cooked pepper scrap of mutant meat", "str_pl": "cooked pepper scraps of mutant meat" },
+    "copy-from": "pepperscrap_mutant",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "cooked_marrow",
+    "name": { "str_sp": "roasted bone marrow" },
+    "copy-from": "cooked_marrow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "pepperbone",
+    "name": { "str_sp": "roasted pepper bone marrow" },
+    "copy-from": "pepperbone",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "offal",
+    "name": { "str_sp": "raw offal" },
+    "copy-from": "offal",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "offal_cooked",
+    "name": { "str_sp": "cooked offal" },
+    "copy-from": "offal_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tainted_innards",
+    "name": { "str_sp": "tainted innards" },
+    "copy-from": "tainted_innards",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tainted_innards_human",
+    "name": { "str_sp": "tainted innards" },
+    "copy-from": "tainted_innards_human",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_bug_organs",
+    "name": { "str_sp": "mutant organs" },
+    "copy-from": "mutant_bug_organs",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_bug_organs_cooked",
+    "name": { "str_sp": "cooked mutant bug organs" },
+    "copy-from": "mutant_bug_organs_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "offal_pickled",
+    "name": { "str_sp": "pickled offal" },
+    "copy-from": "offal_pickled",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "offal_canned",
+    "name": { "str_sp": "canned offal" },
+    "copy-from": "offal_canned",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "stomach",
+    "name": { "str": "stomach" },
+    "copy-from": "stomach",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "stomach_large",
+    "name": { "str": "large stomach" },
+    "copy-from": "stomach_large",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "jerky",
+    "name": { "str_sp": "meat jerky" },
+    "copy-from": "jerky",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "salted_fish",
+    "name": { "str_sp": "salted fish" },
+    "copy-from": "salted_fish",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "salted_mollusk",
+    "name": { "str": "salted mollusk" },
+    "copy-from": "salted_mollusk",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_smoked",
+    "name": { "str_sp": "smoked meat" },
+    "copy-from": "meat_smoked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "fish_smoked",
+    "name": { "str_sp": "smoked fish" },
+    "copy-from": "fish_smoked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "lobster_smoked",
+    "name": { "str": "smoked lobster" },
+    "copy-from": "lobster_smoked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mollusk_smoked",
+    "name": { "str": "smoked mollusk" },
+    "copy-from": "mollusk_smoked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "lung",
+    "name": { "str": "piece of raw lung", "str_pl": "pieces of raw lung" },
+    "copy-from": "lung",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_lung",
+    "name": { "str": "piece of raw human lung", "str_pl": "pieces of raw human lung" },
+    "copy-from": "human_lung",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_lung",
+    "name": { "str": "piece of raw demihuman lung", "str_pl": "pieces of raw demihuman lung" },
+    "copy-from": "demihuman_lung",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "lung_cooked",
+    "name": { "str": "cooked piece of lung", "str_pl": "cooked pieces of lung" },
+    "copy-from": "lung_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_lung",
+    "name": { "str": "piece of raw mutant lung", "str_pl": "pieces of raw mutant lung" },
+    "copy-from": "mutant_lung",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_lung_cooked",
+    "name": { "str": "cooked piece of mutant lung", "str_pl": "cooked pieces of mutant lung" },
+    "copy-from": "mutant_lung_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "heart",
+    "name": { "str": "piece of raw heart", "str_pl": "pieces of raw heart" },
+    "copy-from": "heart",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_heart",
+    "name": { "str": "piece of raw human heart", "str_pl": "pieces of raw human heart" },
+    "copy-from": "human_heart",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_heart",
+    "name": { "str": "piece of raw demihuman heart", "str_pl": "pieces of raw demihuman heart" },
+    "copy-from": "demihuman_heart",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "heart_cooked",
+    "name": { "str": "cooked piece of heart", "str_pl": "cooked pieces of heart" },
+    "copy-from": "heart_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_heart",
+    "name": { "str": "piece of raw mutant heart", "str_pl": "pieces of raw mutant heart" },
+    "copy-from": "mutant_heart",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_human_heart",
+    "name": { "str": "piece of raw mutant humanoid heart", "str_pl": "pieces of raw mutant humanoid heart" },
+    "copy-from": "mutant_human_heart",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_heart_cooked",
+    "name": { "str": "cooked piece of mutant heart", "str_pl": "cooked pieces of mutant heart" },
+    "copy-from": "mutant_heart_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_bug_lungs",
+    "name": { "str": "piece of raw mutant lung", "str_pl": "pieces of raw mutant lung" },
+    "copy-from": "mutant_bug_lungs",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "liver",
+    "name": { "str": "piece of raw liver", "str_pl": "pieces of raw liver" },
+    "copy-from": "liver",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_liver",
+    "name": { "str": "piece of raw human liver", "str_pl": "pieces of raw human liver" },
+    "copy-from": "human_liver",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_liver",
+    "name": { "str": "piece of raw demihuman liver", "str_pl": "pieces of raw demihuman liver" },
+    "copy-from": "demihuman_liver",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "liver_cooked",
+    "name": { "str": "cooked piece of liver", "str_pl": "cooked pieces of liver" },
+    "copy-from": "liver_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_liver",
+    "name": { "str": "piece of raw mutant liver", "str_pl": "pieces of raw mutant liver" },
+    "copy-from": "mutant_liver",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_liver_cooked",
+    "name": { "str": "cooked piece of mutant liver", "str_pl": "cooked pieces of mutant liver" },
+    "copy-from": "mutant_liver_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "bone_marrow",
+    "name": { "str": "portion of raw bone marrow", "str_pl": "portions of raw bone marrow" },
+    "copy-from": "bone_marrow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_marrow",
+    "name": { "str": "portion of raw human bone marrow", "str_pl": "portions of raw human bone marrow" },
+    "copy-from": "human_marrow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_marrow",
+    "name": { "str": "portion of raw demihuman bone marrow", "str_pl": "portions of raw demihuman bone marrow" },
+    "copy-from": "demihuman_marrow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_marrow",
+    "name": { "str": "portion of raw mutant bone marrow", "str_pl": "portions of raw mutant bone marrow" },
+    "copy-from": "mutant_marrow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_human_marrow",
+    "name": { "str": "portion of raw mutant human bone marrow", "str_pl": "portions of raw mutant human bone marrow" },
+    "copy-from": "mutant_human_marrow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "brain",
+    "name": { "str": "piece of raw brain", "str_pl": "pieces of raw brain" },
+    "copy-from": "brain",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_brain",
+    "name": { "str": "piece of raw human brain", "str_pl": "pieces of raw human brain" },
+    "copy-from": "human_brain",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_brain",
+    "name": { "str": "piece of raw demihuman brain", "str_pl": "pieces of raw demihuman brain" },
+    "copy-from": "demihuman_brain",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "brain_cooked",
+    "name": { "str": "cooked piece of brain", "str_pl": "cooked pieces of brain" },
+    "copy-from": "brain_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_brain",
+    "name": { "str": "piece of raw mutant brain", "str_pl": "pieces of raw mutant brain" },
+    "copy-from": "mutant_brain",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_brain_cooked",
+    "name": { "str": "cooked piece of mutant brain", "str_pl": "cooked pieces of mutant brain" },
+    "copy-from": "mutant_brain_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "kidney",
+    "name": { "str": "piece of raw kidney", "str_pl": "pieces of raw kidney" },
+    "copy-from": "kidney",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_kidney",
+    "name": { "str": "piece of raw human kidney", "str_pl": "pieces of raw human kidney" },
+    "copy-from": "human_kidney",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_kidney",
+    "name": { "str": "piece of raw demihuman kidney", "str_pl": "pieces of raw demihuman kidney" },
+    "copy-from": "demihuman_kidney",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "kidney_cooked",
+    "name": { "str": "cooked piece of kidney", "str_pl": "cooked pieces of kidney" },
+    "copy-from": "kidney_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_kidney",
+    "name": { "str": "piece of raw mutant kidney", "str_pl": "pieces of raw mutant kidney" },
+    "copy-from": "mutant_kidney",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_kidney_cooked",
+    "name": { "str": "cooked piece of mutant kidney", "str_pl": "cooked pieces of mutant kidney" },
+    "copy-from": "mutant_kidney_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "sweetbread",
+    "name": { "str": "piece of raw sweetbread", "str_pl": "pieces of raw sweetbread" },
+    "copy-from": "sweetbread",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "human_sweetbread",
+    "name": { "str": "piece of raw human sweetbread", "str_pl": "pieces of raw human sweetbread" },
+    "copy-from": "human_sweetbread",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_sweetbread",
+    "name": { "str": "piece of raw demihuman sweetbread", "str_pl": "pieces of raw demihuman sweetbread" },
+    "copy-from": "demihuman_sweetbread",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "sweetbread_cooked",
+    "name": { "str": "cooked piece of sweetbread", "str_pl": "cooked pieces of sweetbread" },
+    "copy-from": "sweetbread_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "blood",
+    "name": { "str_sp": "blood" },
+    "copy-from": "blood",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "fat",
+    "name": { "str": "chunk of fat", "str_pl": "chunks of fat" },
+    "copy-from": "fat",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tallow",
+    "name": { "str_sp": "tallow" },
+    "copy-from": "tallow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_fat",
+    "name": { "str": "chunk of mutant fat", "str_pl": "chunks of mutant fat" },
+    "copy-from": "mutant_fat",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_tallow",
+    "name": { "str_sp": "mutant tallow" },
+    "copy-from": "mutant_tallow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_human_fat",
+    "name": { "str": "chunk of mutant humanoid fat", "str_pl": "chunks of mutant humanoid fat" },
+    "copy-from": "mutant_human_fat",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutant_human_tallow",
+    "name": { "str_sp": "mutant humanoid tallow" },
+    "copy-from": "mutant_human_tallow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_tainted",
+    "name": { "str": "chunk of tainted meat", "str_pl": "chunks of tainted meat" },
+    "copy-from": "meat_tainted",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_tainted_human",
+    "name": { "str": "chunk of tainted human meat", "str_pl": "chunks of tainted human meat" },
+    "copy-from": "meat_tainted_human",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "arm_zed",
+    "name": { "str": "tainted limb" },
+    "copy-from": "arm_zed",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "leg_zed",
+    "name": { "str": "tainted limb" },
+    "copy-from": "leg_zed",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "blood_tainted",
+    "name": { "str_sp": "tainted blood" },
+    "copy-from": "blood_tainted",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "blood_tainted_human",
+    "name": { "str_sp": "tainted human blood" },
+    "copy-from": "blood_tainted_human",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tainted_marrow",
+    "name": { "str": "portion of tainted bone marrow", "str_pl": "portions of tainted bone marrow" },
+    "copy-from": "tainted_marrow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tainted_marrow_human",
+    "name": { "str": "portion of tainted human bone marrow", "str_pl": "portions of tainted human bone marrow" },
+    "copy-from": "tainted_marrow_human",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "fat_tainted",
+    "name": { "str": "chunk of tainted fat", "str_pl": "chunks of tainted fat" },
+    "copy-from": "fat_tainted",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "fat_tainted_human",
+    "name": { "str": "chunk of tainted human fat", "str_pl": "chunks of tainted human fat" },
+    "copy-from": "fat_tainted_human",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tallow_tainted",
+    "name": { "str_sp": "tainted tallow" },
+    "copy-from": "tallow_tainted",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "stomach_boiled",
+    "name": { "str": "large boiled stomach" },
+    "copy-from": "stomach_boiled",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "hstomach_boiled",
+    "name": { "str": "boiled large human stomach" },
+    "copy-from": "hstomach_boiled",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "small_stomach_boiled",
+    "name": { "str": "boiled stomach" },
+    "copy-from": "small_stomach_boiled",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "small_hstomach_boiled",
+    "name": { "str": "boiled human stomach" },
+    "copy-from": "small_hstomach_boiled",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "raw_leather",
+    "name": { "str_sp": "raw hide" },
+    "copy-from": "raw_leather",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "raw_tainted_leather",
+    "name": { "str_sp": "tainted hide" },
+    "copy-from": "raw_tainted_leather",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "raw_tainted_leather_scraps",
+    "name": { "str_sp": "tainted skin scraps" },
+    "copy-from": "raw_tainted_leather_scraps",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "raw_hleather",
+    "name": { "str_sp": "raw human skin" },
+    "copy-from": "raw_hleather",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "raw_demihumanleather",
+    "name": { "str_sp": "raw demihuman skin" },
+    "copy-from": "raw_demihumanleather",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "raw_fur",
+    "name": { "str_sp": "raw pelt" },
+    "copy-from": "raw_fur",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "raw_tainted_fur",
+    "name": { "str_sp": "tainted pelt" },
+    "copy-from": "raw_tainted_fur",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "raw_hfur",
+    "name": { "str_sp": "raw human pelt" },
+    "copy-from": "raw_hfur",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "flesh_golem_heart",
+    "name": { "str": "seeping heart" },
+    "copy-from": "flesh_golem_heart",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "jabberwock_heart",
+    "name": { "str": "putrid heart" },
+    "copy-from": "jabberwock_heart",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "jabberwock_heart_desiccated",
+    "name": { "str": "desiccated putrid heart" },
+    "copy-from": "jabberwock_heart_desiccated",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "nether_huntsman_organ",
+    "name": { "str": "reverberating organ" },
+    "copy-from": "nether_huntsman_organ",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "nether_grub",
+    "name": { "str": "alien grub" },
+    "copy-from": "nether_grub",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_frond",
+    "name": { "str_sp": "alien fronds" },
+    "copy-from": "meat_frond",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "leech_flower",
+    "name": { "str": "leech flower" },
+    "copy-from": "leech_flower",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_bark",
+    "name": { "str": "leech bark", "str_pl": "scraps of leech bark" },
+    "copy-from": "meat_bark",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_stomach",
+    "name": { "str": "demihuman stomach" },
+    "copy-from": "demihuman_stomach",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_stomach_large",
+    "name": { "str": "large demihuman stomach" },
+    "copy-from": "demihuman_stomach_large",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_fat",
+    "name": { "str": "chunk of demihuman fat", "str_pl": "chunks of demihuman fat" },
+    "copy-from": "demihuman_fat",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_tallow",
+    "name": { "str_sp": "demihuman tallow" },
+    "copy-from": "demihuman_tallow",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_flesh",
+    "name": { "str_sp": "demihuman flesh" },
+    "copy-from": "demihuman_flesh",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_blood",
+    "name": { "str_sp": "demihuman blood" },
+    "copy-from": "demihuman_blood",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_cooked",
+    "name": { "str_sp": "cooked mongrel" },
+    "copy-from": "demihuman_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "demihuman_stomach_boiled",
+    "name": { "str": "boiled demihuman stomach" },
+    "copy-from": "demihuman_stomach_boiled",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "small_demihuman_stomach_boiled",
+    "name": { "str": "boiled demihuman stomach" },
+    "copy-from": "small_demihuman_stomach_boiled",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "meat_fried",
+    "name": { "str_sp": "fried meat" },
+    "copy-from": "meat_fried",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ],
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "poultry",
+    "name": { "str": "chunk of poultry meat", "str_pl": "chunks of poultry meat" },
+    "copy-from": "poultry",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "poultry_scrap",
+    "name": { "str": "scrap of poultry meat", "str_pl": "scraps of poultry meat" },
+    "copy-from": "poultry_scrap",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "poultry_cooked",
+    "name": { "str_sp": "cooked poultry" },
+    "copy-from": "poultry_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "poultry_pepper",
+    "name": { "str_sp": "cooked pepper poultry" },
+    "copy-from": "poultry_pepper",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "poultry_scrap_cooked",
+    "name": { "str": "cooked scrap of poultry", "str_pl": "cooked scraps of poultry" },
+    "copy-from": "poultry_scrap_cooked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "poultry_scrap_pepper",
+    "name": { "str": "cooked pepper scrap of poultry", "str_pl": "cooked pepper scraps of poultry" },
+    "copy-from": "poultry_scrap_pepper",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "poultry_smoked",
+    "name": { "str_sp": "chicken jerky" },
+    "copy-from": "poultry_smoked",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mutflesh",
+    "name": { "str": "chunk of mutagenic flesh", "str_pl": "chunks of mutagenic flesh" },
+    "copy-from": "mutflesh",
+    "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ]
+  }
+]

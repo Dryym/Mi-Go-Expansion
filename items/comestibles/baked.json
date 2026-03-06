@@ -1,0 +1,44 @@
+[
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "pumpkin_muffins",
+    "name": { "str": "pumpkin muffin" },
+    "copy-from": "pumpkin_muffins",
+    "extend": { "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "hazelnut_cake",
+    "name": { "str": "hazelnut cake" },
+    "copy-from": "hazelnut_cake",
+    "extend": { "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ] }
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "baklava",
+    "name": { "str": "baklava" },
+    "copy-from": "baklava",
+    "extend": { "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "religieuse_au_chocolat",
+    "name": { "str": "religieuse au chocolat", "str_pl": "religieuses au chocolat" },
+    "copy-from": "religieuse_au_chocolat",
+    "extend": { "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ] }
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "gateau_st_honore",
+    "name": { "str": "gateau st. honore", "str_pl": "gateaux st. honore" },
+    "copy-from": "gateau_st_honore",
+    "extend": { "consumption_effect_on_conditions": [ "EOC_MI_GO_CONSUME" ] }
+  }
+]

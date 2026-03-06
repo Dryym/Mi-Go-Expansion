@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mi-go_expansion",
+    "name": "Mi-go Expansion",
+    "authors": [ "Dryym" ],
+    "maintainers": [ "Dryym" ],
+    "description": "Expands Mi-go content as well as adding scenarios to play as a Mi-go.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

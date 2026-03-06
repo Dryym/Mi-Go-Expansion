@@ -1,0 +1,18 @@
+[
+  {
+    "type": "scenario",
+    "id": "migo_start",
+    "name": "Mi-Go Camp",
+    "points": 0,
+    "description": "You've been transported to a strange planet at the end of its life. Your superiors have informed you that the mission is to collect as much biodiversity as possible of this doomed world.",
+    "allowed_locs": [ "sloc_mi-go_camp" ],
+    "start_name": "Mi-Go Camp",
+    "professions": [ "mi_go_scout", "unemployed" ],
+    "reveal_locale": false,
+    "distance_initial_visibility": 0,
+    "flags": [ "LONE_START" ],
+    "forced_traits": [ "MIGOPHYSIOLOGY" ],
+    "start_of_cataclysm": { "hour": 0, "day": 56, "season": "spring", "year": 1 },
+    "start_of_game": { "hour": 8, "day": 60, "season": "autumn", "year": 1 }
+  }
+]

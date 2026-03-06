@@ -1,0 +1,154 @@
+[
+  {
+    "id": "biofoam",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "category": "drugs",
+    "name": { "str": "biofoam pod", "str_pl": "biofoam pods" },
+    "description": "A small resinous pod capped with a long tube resembling an insect's ovipositor. It is used to apply an expanding biofoam which promotes healing and stops bleeding.",
+    "weight": "70 g",
+    "volume": "100 ml",
+    "price": "65 cent",
+    "price_postapoc": "20 cent",
+    "material": [ "alien_resin" ],
+    "symbol": "!",
+    "color": "white",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "airtight": true,
+        "rigid": true,
+        "watertight": true,
+        "ammo_restriction": { "expanding_biofoam": 10 }
+      }
+    ],
+    "charges_per_use": 1,
+    "use_action": { "type": "heal", "bandages_power": 4, "bleed": 15, "move_cost": 1000 }
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
+    "id": "expanding_biofoam",
+    "category": "drugs",
+    "name": { "str_sp": "expanding biofoam" },
+    "symbol": "=",
+    "color": "white",
+    "description": "Some variety of alien expanding foam, for application into wounds to promote healing and stop bleeding.",
+    "material": [ "water" ],
+    "volume": "10 ml",
+    "weight": "33 mg",
+    "count": 30,
+    "phase": "liquid",
+    "ammo_type": "expanding_biofoam"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "expanding_biofoam",
+    "name": "expanding biofoam",
+    "default": "expanding_biofoam"
+  },
+  {
+    "id": "plasma_disinfectant_pod",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "category": "drugs",
+    "name": { "str": "plasma disinfectant pod", "str_pl": "plasma disinfectant pods" },
+    "description": "A small resinous pod capped with a long tube resembling an insect's ovipositor. It is used to apply an organic compound which reacts violently when exposed to air, creating a high energy plasma which sterilizes the local area.",
+    "weight": "70 g",
+    "volume": "100 ml",
+    "price": "65 cent",
+    "price_postapoc": "20 cent",
+    "material": [ "alien_resin" ],
+    "symbol": "!",
+    "color": "white",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "airtight": true,
+        "rigid": true,
+        "watertight": true,
+        "ammo_restriction": { "plasma_disinfectant": 10 }
+      }
+    ],
+    "charges_per_use": 1,
+    "use_action": { "type": "heal", "limb_power": -20, "disinfectant_power": 4, "bite": 1, "infect": 0.25, "move_cost": 1000 }
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
+    "id": "plasma_disinfectant",
+    "category": "drugs",
+    "name": { "str_sp": "plasma disinfectant" },
+    "symbol": "=",
+    "color": "white",
+    "description": "An organic compound which reacts violently when exposed to air, creating a high energy plasma which sterilizes the local area.",
+    "material": [ "water" ],
+    "volume": "10 ml",
+    "weight": "33 mg",
+    "count": 30,
+    "phase": "liquid",
+    "ammo_type": "plasma_disinfectant"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "plasma_disinfectant",
+    "name": "plasma disinfectant",
+    "default": "plasma_disinfectant"
+  },
+  {
+    "id": "hallucinogen_pod",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "category": "drugs",
+    "name": { "str": "hallucinogen pod", "str_pl": "hallucinogen pods" },
+    "description": "A small resinous pod capped with a long tube resembling a wasp's ovipositor-turned-stinger. It is used to inject a strange cocktail of neurotoxins and hallucinogens which the Mi-go use as a type of painkiller.",
+    "weight": "70 g",
+    "volume": "100 ml",
+    "price": "65 cent",
+    "price_postapoc": "20 cent",
+    "material": [ "alien_resin" ],
+    "symbol": "!",
+    "color": "white",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "airtight": true,
+        "rigid": true,
+        "watertight": true,
+        "ammo_restriction": { "alien_hallucinogen": 10 }
+      }
+    ],
+    "charges_per_use": 1,
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You stab the pod's end into your body and everything goes numb.",
+      "effects": [
+        { "id": "hallu", "duration": 1200 },
+        { "id": "pkill2", "duration": 120 },
+        { "id": "pkill1_generic", "duration": 1200 }
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
+    "id": "alien_hallucinogen",
+    "category": "drugs",
+    "name": { "str_sp": "mi-go hallucinogen" },
+    "symbol": "=",
+    "color": "white",
+    "description": "A strange cocktail of neurotoxins and hallucinogens which the Mi-go use simultaneously as a type of painkiller, and to subdue uncooperative specimens.",
+    "material": [ "water" ],
+    "volume": "10 ml",
+    "weight": "33 mg",
+    "count": 30,
+    "phase": "liquid",
+    "ammo_type": "alien_hallucinogen"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "alien_hallucinogen",
+    "name": "mi-go hallucinogen",
+    "default": "alien_hallucinogen"
+  }
+]

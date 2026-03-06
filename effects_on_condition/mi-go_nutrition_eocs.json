@@ -1,0 +1,93 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_mi_go_metabolism",
+    "recurrence": 1,
+    "condition": { "u_has_trait": "MIGOPHYSIOLOGY" },
+    "effect": {
+      "run_eocs": [
+        {
+          "id": "EOC_mi_go_metabolize_sulfur",
+          "condition": { "and": [ { "math": [ "u_vitamin('sulfur') >= 10" ] }, { "math": [ "u_vitamin('sulfur') < 24000" ] } ] },
+          "effect": [
+            { "math": [ "u_vitamin('sulfur') -= 10" ] },
+            { "math": [ "u_vitamin('sulfur_dioxide') += 10" ] },
+            {
+              "run_eocs": {
+                "id": "EOC_mi_go_metabolize_sulfur_calories",
+                "condition": { "math": [ "u_calories('format': 'percent') < 105" ] },
+                "effect": [ { "math": [ "u_calories() += 71 * 10 * 0.25" ] }, { "math": [ "u_kcal = u_calories()" ] } ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "EOC_mi_go_metabolize_sulfur_dioxide",
+          "condition": {
+            "and": [ { "math": [ "u_vitamin('sulfur_dioxide') >= 10" ] }, { "math": [ "u_vitamin('sulfur_dioxide') < 24000" ] } ]
+          },
+          "effect": [
+            { "math": [ "u_vitamin('sulfur_dioxide') -= 10" ] },
+            { "math": [ "u_vitamin('sulfur_trioxide') += 10" ] },
+            {
+              "run_eocs": {
+                "id": "EOC_mi_go_metabolize_sulfur_dioxide_calories",
+                "condition": { "math": [ "u_calories('format': 'percent') < 105" ] },
+                "effect": [ { "math": [ "u_calories() += 47 * 10 * 0.25" ] }, { "math": [ "u_kcal = u_calories()" ] } ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "EOC_mi_go_produce_sulfuric_acid",
+          "condition": {
+            "and": [
+              { "math": [ "u_vitamin('sulfur_trioxide') >= 470" ] },
+              { "math": [ "u_vitamin('water') >= 470" ] },
+              { "math": [ "u_val('thirst') > 10" ] }
+            ]
+          },
+          "effect": [
+            { "math": [ "u_vitamin('sulfur_trioxide') -= 470" ] },
+            { "math": [ "u_vitamin('water') -= 470" ] },
+            { "math": [ "u_val('thirst') -= 10" ] },
+            { "u_message": "Producing acid" },
+            {
+              "run_eocs": {
+                "id": "EOC_mi_go_produce_sulfuric_acid_calories",
+                "condition": { "math": [ "u_calories('format': 'percent') < 105" ] },
+                "effect": [ { "math": [ "u_calories() += 40 * 10 * 0.25" ] }, { "math": [ "u_kcal = u_calories()" ] } ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_mi_go_atmosphere_replenishment",
+    "recurrence": 1,
+    "condition": { "u_has_trait": "MIGOPHYSIOLOGY" },
+    "effect": {
+      "run_eocs": [
+        {
+          "id": "EOC_mi_go_breathe_sulfur_dioxide",
+          "condition": { "u_is_in_field": "fd_migo_atmosphere" },
+          "effect": [ { "math": [ "u_vitamin('sulfur_dioxide') += 100" ] } ]
+        },
+        {
+          "id": "EOC_mi_go_breathe_steam",
+          "condition": { "u_is_in_field": "fd_hot_air_sauna" },
+          "effect": [ { "math": [ "u_vitamin('water') += 100" ] } ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_MI_GO_CONSUME",
+    "condition": { "not": "is_rotten" },
+    "effect": [ { "u_cast_spell": { "id": "AEA_VOMIT" } } ]
+  }
+]

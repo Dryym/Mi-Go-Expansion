@@ -1,0 +1,106 @@
+[
+  {
+    "id": "migo_carapace_light",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "TOOL" ],
+    "category": "armor",
+    "name": { "str_sp": "light mi-go carapace" },
+    "description": "light mi-go carapace",
+    "material": [ "mi_go_carapace_light" ],
+    "qualities": [ [ "CUT", 3 ], [ "CUT_FINE", 2 ], [ "BUTCHER", 4 ] ],
+    "symbol": "x",
+    "flags": [
+      "INTEGRATED",
+      "ALLOWS_NATURAL_ATTACKS",
+      "UNBREAKABLE",
+      "NORMAL",
+      "WATER_FRIENDLY",
+      "PADDED",
+      "IRRITANT_IMMUNE",
+      "NO_SALVAGE",
+      "SKINTIGHT",
+      "TOUGH_FEET",
+      "GAS_PROOF",
+      "ZERO_WEIGHT"
+    ],
+    "environmental_protection": 15,
+    "armor": [
+      {
+        "material": [ { "type": "mi_go_carapace_light", "covered_by_mat": 100, "thickness": 1.0 } ],
+        "covers": [
+          "mi_go_head",
+          "mi_go_mouth",
+          "mi_go_thorax",
+          "mi_go_upper_arm_r",
+          "mi_go_upper_claw_r",
+          "mi_go_upper_arm_l",
+          "mi_go_upper_claw_l",
+          "mi_go_lower_arm_r",
+          "mi_go_lower_claw_r",
+          "mi_go_lower_arm_l",
+          "mi_go_lower_claw_l",
+          "mi_go_legs_r",
+          "mi_go_tarsae_r",
+          "mi_go_legs_l",
+          "mi_go_tarsae_l",
+          "mi_go_wing_r",
+          "mi_go_wing_l"
+        ],
+        "coverage": 100,
+        "encumbrance": 0
+      }
+    ]
+  },
+  {
+    "id": "migo_carapace",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "TOOL" ],
+    "category": "armor",
+    "name": { "str_sp": "mi-go carapace" },
+    "description": "mi-go carapace",
+    "material": [ "mi_go_carapace_medium" ],
+    "qualities": [ [ "CUT", 3 ], [ "CUT_FINE", 2 ], [ "BUTCHER", 4 ] ],
+    "symbol": "x",
+    "flags": [
+      "INTEGRATED",
+      "ALLOWS_NATURAL_ATTACKS",
+      "UNBREAKABLE",
+      "NORMAL",
+      "WATER_FRIENDLY",
+      "PADDED",
+      "IRRITANT_IMMUNE",
+      "NO_SALVAGE",
+      "SKINTIGHT",
+      "TOUGH_FEET",
+      "GAS_PROOF",
+      "ZERO_WEIGHT"
+    ],
+    "environmental_protection": 15,
+    "armor": [
+      {
+        "material": [ { "type": "mi_go_carapace_medium", "covered_by_mat": 100, "thickness": 1.0 } ],
+        "covers": [
+          "mi_go_head",
+          "mi_go_mouth",
+          "mi_go_thorax",
+          "mi_go_upper_arm_r",
+          "mi_go_upper_claw_r",
+          "mi_go_upper_arm_l",
+          "mi_go_upper_claw_l",
+          "mi_go_lower_arm_r",
+          "mi_go_lower_claw_r",
+          "mi_go_lower_arm_l",
+          "mi_go_lower_claw_l",
+          "mi_go_legs_r",
+          "mi_go_tarsae_r",
+          "mi_go_legs_l",
+          "mi_go_tarsae_l",
+          "mi_go_wing_r",
+          "mi_go_wing_l"
+        ],
+        "coverage": 100,
+        "encumbrance": 0
+      }
+    ]
+  }
+]

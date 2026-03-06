@@ -1,0 +1,810 @@
+[
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "chem_sulphuric_acid",
+    "copy-from": "chem_sulphuric_acid",
+    "comestible_type": "DRINK",
+    "quench": 100
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "apple_cider",
+    "name": { "str_sp": "apple cider" },
+    "copy-from": "apple_cider",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "almond_milk",
+    "name": { "str_sp": "almond milk" },
+    "copy-from": "almond_milk",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "hazelnut_milk",
+    "name": { "str_sp": "hazelnut milk" },
+    "copy-from": "hazelnut_milk",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "walnut_milk",
+    "name": { "str_sp": "walnut milk" },
+    "copy-from": "walnut_milk",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "soy_milk",
+    "name": { "str_sp": "soy milk" },
+    "copy-from": "soy_milk",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "oat_milk",
+    "name": { "str_sp": "oat milk" },
+    "copy-from": "oat_milk",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "atomic_coffee",
+    "name": { "str_sp": "atomic coffee" },
+    "copy-from": "atomic_coffee",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tea_wild_sarsaparilla",
+    "name": { "str_sp": "wild sarsaparilla tea" },
+    "copy-from": "tea_wild_sarsaparilla",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "bee_balm_tea",
+    "name": { "str_sp": "bee balm tea" },
+    "copy-from": "bee_balm_tea",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "can_coconut",
+    "name": { "str_sp": "coconut milk" },
+    "copy-from": "can_coconut",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "chai_tea",
+    "name": { "str_sp": "chai tea" },
+    "copy-from": "chai_tea",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "chamomile_tea",
+    "name": { "str_sp": "chamomile tea" },
+    "copy-from": "chamomile_tea",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "choc_drink",
+    "name": { "str_sp": "chocolate drink" },
+    "copy-from": "choc_drink",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "coffee",
+    "name": { "str_sp": "black coffee" },
+    "copy-from": "coffee",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "coffee_substitute",
+    "name": { "str_sp": "coffee substitute" },
+    "copy-from": "coffee_substitute",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "milk_coffee_substitute",
+    "name": { "str_sp": "coffee substitute with milk" },
+    "copy-from": "milk_coffee_substitute",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "milk_coffee_substitute_sweetened",
+    "name": { "str_sp": "sweetened coffee substitute with milk" },
+    "copy-from": "milk_coffee_substitute_sweetened",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "sweet_milk",
+    "name": { "str_sp": "sweetened milk" },
+    "copy-from": "sweet_milk",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "sweet_milk_fortified",
+    "name": { "str_sp": "sweetened fortified milk" },
+    "copy-from": "sweet_milk_fortified",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "chicory_coffee",
+    "name": { "str_sp": "chicory brew" },
+    "copy-from": "chicory_coffee",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "cola",
+    "name": { "str_sp": "dark cola" },
+    "copy-from": "cola",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "colamdew",
+    "name": { "str_sp": "energy cola" },
+    "copy-from": "colamdew",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "creamsoda",
+    "name": { "str_sp": "cream soda" },
+    "copy-from": "creamsoda",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "cranberry_juice",
+    "name": { "str_sp": "cranberry juice" },
+    "copy-from": "cranberry_juice",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "crispycran",
+    "name": { "str_sp": "crispy cranberry" },
+    "copy-from": "crispycran",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "dandelion_tea",
+    "name": { "str_sp": "dandelion tea" },
+    "copy-from": "dandelion_tea",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "dandelionburdock_tea",
+    "name": { "str_sp": "dandelion and burdock tea" },
+    "copy-from": "dandelionburdock_tea",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "eggnog",
+    "name": { "str_sp": "eggnog" },
+    "copy-from": "eggnog",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "energy_drink",
+    "name": { "str_sp": "energy drink" },
+    "copy-from": "energy_drink",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "energy_drink_atomic",
+    "name": { "str_sp": "atomic energy drink" },
+    "copy-from": "energy_drink_atomic",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "herbal_tea",
+    "name": { "str_sp": "herbal tea" },
+    "copy-from": "herbal_tea",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "hot_chocolate",
+    "name": { "str_sp": "hot chocolate" },
+    "copy-from": "hot_chocolate",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "horchata",
+    "name": { "str_sp": "horchata" },
+    "copy-from": "horchata",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "juice_pasteurized",
+    "name": { "str": "pasteurized fruit juice" },
+    "copy-from": "juice_pasteurized",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "juice",
+    "name": { "str_sp": "fruit juice" },
+    "copy-from": "juice",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "pineapple_juice",
+    "name": { "str_sp": "pineapple juice" },
+    "copy-from": "pineapple_juice",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "drink_pinitacolada",
+    "name": { "str_sp": "pinita colada" },
+    "copy-from": "drink_pinitacolada",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "drink_virgin_mary",
+    "name": { "str_sp": "Virgin Mary cocktail" },
+    "copy-from": "drink_virgin_mary",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "drink_shirleytemple",
+    "name": { "str_sp": "Shirley Temple drink" },
+    "copy-from": "drink_shirleytemple",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "drink_royrogers",
+    "name": { "str_sp": "Roy Rogers drink" },
+    "copy-from": "drink_royrogers",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "kompot",
+    "name": { "str_sp": "kompot" },
+    "copy-from": "kompot",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "lemonade",
+    "name": { "str_sp": "lemonade" },
+    "copy-from": "lemonade",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "orangeade",
+    "name": { "str_sp": "orangeade" },
+    "copy-from": "orangeade",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "grapeade",
+    "name": { "str_sp": "grapeade" },
+    "copy-from": "grapeade",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "lemonlime",
+    "name": { "str_sp": "lemon-lime soda" },
+    "copy-from": "lemonlime",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "lotus_tea",
+    "name": { "str_sp": "lotus tea" },
+    "copy-from": "lotus_tea",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mex_chocolate",
+    "name": { "str_sp": "Mexican hot chocolate" },
+    "copy-from": "mex_chocolate",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "milk_coffee",
+    "name": { "str_sp": "coffee milk" },
+    "copy-from": "milk_coffee",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "milk_tea",
+    "name": { "str_sp": "milk tea" },
+    "copy-from": "milk_tea",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "oj",
+    "name": { "str_sp": "orange juice" },
+    "copy-from": "oj",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "oj_fresh",
+    "name": { "str_sp": "fresh orange juice" },
+    "copy-from": "oj_fresh",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "orangesoda",
+    "name": { "str_sp": "orange soda" },
+    "copy-from": "orangesoda",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "pine_tea",
+    "name": { "str_sp": "pine needle tea" },
+    "copy-from": "pine_tea",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "purple_drink",
+    "name": { "str_sp": "grape drink" },
+    "copy-from": "purple_drink",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "mycus_juice",
+    "name": { "str_sp": "Mycus juice" },
+    "copy-from": "mycus_juice",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "rootbeer",
+    "name": { "str_sp": "root beer" },
+    "copy-from": "rootbeer",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "rootbeer_brewed",
+    "name": { "str_sp": "root beer" },
+    "copy-from": "rootbeer_brewed",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tonic_water",
+    "name": { "str_sp": "tonic water" },
+    "copy-from": "tonic_water",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "spezi",
+    "name": { "str_sp": "spezi" },
+    "copy-from": "spezi",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "sports_drink",
+    "name": { "str_sp": "sports drink" },
+    "copy-from": "sports_drink",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "spurge_tea",
+    "name": { "str_sp": "spurge tea" },
+    "copy-from": "spurge_tea",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "rehydration_drink",
+    "name": { "str_sp": "rehydration drink" },
+    "copy-from": "rehydration_drink",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "sweet_water",
+    "name": { "str_sp": "sweet water" },
+    "copy-from": "sweet_water",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tea",
+    "name": { "str_sp": "black tea" },
+    "copy-from": "tea",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tea_willowbark",
+    "name": { "str_sp": "willowbark tea" },
+    "copy-from": "tea_willowbark",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tea_bark",
+    "name": { "str_sp": "bark tea" },
+    "copy-from": "tea_bark",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "V8",
+    "name": { "str_sp": "V8" },
+    "copy-from": "V8",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "water",
+    "name": { "str_sp": "water" },
+    "copy-from": "water",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "water_murky",
+    "name": { "str_sp": "murky water" },
+    "copy-from": "water_murky",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE", "AMMO" ],
+    "id": "water_clean",
+    "name": { "str_sp": "clean water" },
+    "copy-from": "water_clean",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "water_spring",
+    "name": { "str_sp": "spring water" },
+    "copy-from": "water_spring",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "water_mineral",
+    "name": { "str_sp": "mineral water" },
+    "copy-from": "water_mineral",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tea_green",
+    "name": { "str_sp": "green tea" },
+    "copy-from": "tea_green",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tea_fruit",
+    "name": { "str_sp": "fruit tea" },
+    "copy-from": "tea_fruit",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "coffee_sweetened",
+    "name": { "str_sp": "sweetened coffee" },
+    "copy-from": "coffee_sweetened",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tea_sweetened",
+    "name": { "str_sp": "sweetened tea" },
+    "copy-from": "tea_sweetened",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "milk_tea_sweetened",
+    "name": { "str_sp": "sweetened milk tea" },
+    "copy-from": "milk_tea_sweetened",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "coffee_substitute_sweetened",
+    "name": { "str_sp": "sweetened coffee substitute" },
+    "copy-from": "coffee_substitute_sweetened",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "milk_coffee_sweetened",
+    "name": { "str_sp": "sweetened coffee milk" },
+    "copy-from": "milk_coffee_sweetened",
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "tomato_juice",
+    "name": { "str_sp": "tomato juice" },
+    "copy-from": "tomato_juice",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "ayran",
+    "name": { "str_sp": "ayran" },
+    "copy-from": "ayran",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "zerocola",
+    "name": { "str_sp": "diet cola" },
+    "copy-from": "zerocola",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "zeroorange",
+    "name": { "str_sp": "diet orange soda" },
+    "copy-from": "zeroorange",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "zerotropical",
+    "name": { "str_sp": "diet tropical soda" },
+    "copy-from": "zerotropical",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "zeromdew",
+    "name": { "str_sp": "diet energy cola" },
+    "copy-from": "zeromdew",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "foodplace_zero_drink",
+    "name": { "str_sp": "Foodplace's refreshing drink™" },
+    "copy-from": "foodplace_zero_drink",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "sparkling",
+    "name": { "str_sp": "sparkling water" },
+    "copy-from": "sparkling",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "sparkling_peach",
+    "name": { "str_sp": "peach sparkling water" },
+    "copy-from": "sparkling_peach",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "sparkling_pomegranate",
+    "name": { "str_sp": "pomegranate sparkling water" },
+    "copy-from": "sparkling_pomegranate",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE", "AMMO" ],
+    "id": "water_purifying_active",
+    "name": { "str_sp": "water (purifying)" },
+    "copy-from": "water_purifying_active",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "BREWABLE", "COMESTIBLE" ],
+    "id": "brew_kvass",
+    "name": { "str_sp": "unfermented kvass" },
+    "copy-from": "brew_kvass",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "kvass",
+    "name": { "str_sp": "kvass" },
+    "copy-from": "kvass",
+    "extend": { "vitamins": [ [ "water", "250 g" ] ] },
+    "quench": 0
+  }
+]
