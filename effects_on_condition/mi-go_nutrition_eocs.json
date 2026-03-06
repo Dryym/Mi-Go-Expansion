@@ -13,11 +13,8 @@
             { "math": [ "u_vitamin('sulfur') -= 10" ] },
             { "math": [ "u_vitamin('sulfur_dioxide') += 10" ] },
             {
-              "run_eocs": {
-                "id": "EOC_mi_go_metabolize_sulfur_calories",
-                "condition": { "math": [ "u_calories('format': 'percent') < 105" ] },
-                "effect": [ { "math": [ "u_calories() += 71 * 10 * 0.25" ] }, { "math": [ "u_kcal = u_calories()" ] } ]
-              }
+              "if": { "math": [ "u_calories('format': 'percent') < 105" ] },
+              "then": [ { "math": [ "u_calories() += 71 * 10 * 0.25" ] }, { "math": [ "u_kcal = u_calories()" ] } ]
             }
           ]
         },
@@ -30,11 +27,8 @@
             { "math": [ "u_vitamin('sulfur_dioxide') -= 10" ] },
             { "math": [ "u_vitamin('sulfur_trioxide') += 10" ] },
             {
-              "run_eocs": {
-                "id": "EOC_mi_go_metabolize_sulfur_dioxide_calories",
-                "condition": { "math": [ "u_calories('format': 'percent') < 105" ] },
-                "effect": [ { "math": [ "u_calories() += 47 * 10 * 0.25" ] }, { "math": [ "u_kcal = u_calories()" ] } ]
-              }
+              "if": { "math": [ "u_calories('format': 'percent') < 105" ] },
+              "then": [ { "math": [ "u_calories() += 47 * 10 * 0.25" ] } ]
             }
           ]
         },
@@ -53,11 +47,8 @@
             { "math": [ "u_val('thirst') -= 10" ] },
             { "u_message": "Producing acid" },
             {
-              "run_eocs": {
-                "id": "EOC_mi_go_produce_sulfuric_acid_calories",
-                "condition": { "math": [ "u_calories('format': 'percent') < 105" ] },
-                "effect": [ { "math": [ "u_calories() += 40 * 10 * 0.25" ] }, { "math": [ "u_kcal = u_calories()" ] } ]
-              }
+              "if": { "math": [ "u_calories('format': 'percent') < 105" ] },
+              "then": [ { "math": [ "u_calories() += 40 * 470 * 0.25" ] } ]
             }
           ]
         }
