@@ -38,5 +38,14 @@
     "max": 24000,
     "weight_per_unit": "18 mg 15 μg",
     "rate": "60 m"
+  },
+  {
+    "id": "heat",
+    "type": "vitamin",
+    "vit_type": "counter",
+    "name": { "str": "Stored Heat" },
+    "min": 0,
+    "max": 24000,
+    "rate": "1 m"
   }
 ]

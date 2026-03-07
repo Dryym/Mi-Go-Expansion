@@ -8,28 +8,42 @@
       "run_eocs": [
         {
           "id": "EOC_mi_go_metabolize_sulfur",
-          "condition": { "and": [ { "math": [ "u_vitamin('sulfur') >= 10" ] }, { "math": [ "u_vitamin('sulfur') < 24000" ] } ] },
+          "condition": {
+            "and": [
+              { "math": [ "u_vitamin('sulfur') >= 10" ] },
+              { "or": [ { "math": [ "u_vitamin('sulfur') < 24000" ] }, { "math": [ "u_val('body_temp') < 3500" ] } ] }
+            ]
+          },
           "effect": [
             { "math": [ "u_vitamin('sulfur') -= 10" ] },
             { "math": [ "u_vitamin('sulfur_dioxide') += 10" ] },
+            { "math": [ "u_heat_gen = 71 * 10" ] },
             {
               "if": { "math": [ "u_calories('format': 'percent') < 105" ] },
-              "then": [ { "math": [ "u_calories() += 71 * 10 * 0.25" ] }, { "math": [ "u_kcal = u_calories()" ] } ]
-            }
+              "then": [ { "math": [ "u_calories() += u_heat_gen * 0.25" ] }, { "math": [ "u_heat_gen *= 0.75" ] } ]
+            },
+            { "math": [ "u_vitamin('heat') += u_heat_gen" ] }
           ]
         },
         {
           "id": "EOC_mi_go_metabolize_sulfur_dioxide",
           "condition": {
-            "and": [ { "math": [ "u_vitamin('sulfur_dioxide') >= 10" ] }, { "math": [ "u_vitamin('sulfur_dioxide') < 24000" ] } ]
+            "and": [
+              { "math": [ "u_vitamin('sulfur_dioxide') >= 10" ] },
+              {
+                "or": [ { "math": [ "u_vitamin('sulfur_dioxide') < 24000" ] }, { "math": [ "u_val('body_temp') < 3500" ] } ]
+              }
+            ]
           },
           "effect": [
             { "math": [ "u_vitamin('sulfur_dioxide') -= 10" ] },
             { "math": [ "u_vitamin('sulfur_trioxide') += 10" ] },
+            { "math": [ "u_heat_gen = 47 * 10" ] },
             {
               "if": { "math": [ "u_calories('format': 'percent') < 105" ] },
-              "then": [ { "math": [ "u_calories() += 47 * 10 * 0.25" ] } ]
-            }
+              "then": [ { "math": [ "u_calories() += u_heat_gen * 0.25" ] }, { "math": [ "u_heat_gen *= 0.75" ] } ]
+            },
+            { "math": [ "u_vitamin('heat') += u_heat_gen" ] }
           ]
         },
         {
@@ -38,18 +52,19 @@
             "and": [
               { "math": [ "u_vitamin('sulfur_trioxide') >= 470" ] },
               { "math": [ "u_vitamin('water') >= 470" ] },
-              { "math": [ "u_val('thirst') > 10" ] }
+              { "or": [ { "math": [ "u_val('thirst') > 10" ] } ] }
             ]
           },
           "effect": [
             { "math": [ "u_vitamin('sulfur_trioxide') -= 470" ] },
             { "math": [ "u_vitamin('water') -= 470" ] },
             { "math": [ "u_val('thirst') -= 10" ] },
-            { "u_message": "Producing acid" },
+            { "math": [ "u_heat_gen = 40 * 470" ] },
             {
               "if": { "math": [ "u_calories('format': 'percent') < 105" ] },
-              "then": [ { "math": [ "u_calories() += 40 * 470 * 0.25" ] } ]
-            }
+              "then": [ { "math": [ "u_calories() += u_heat_gen * 0.25" ] } ]
+            },
+            { "math": [ "u_vitamin('heat') += u_heat_gen" ] }
           ]
         }
       ]

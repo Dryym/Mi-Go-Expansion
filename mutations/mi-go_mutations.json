@@ -45,7 +45,7 @@
           { "value": "PERCEPTION", "multiply": 0.2 },
           { "value": "SPEED", "multiply": 0.2 },
           { "value": "CLIMATE_CONTROL_CHILL", "add": 200 },
-          { "value": "CLIMATE_CONTROL_HEAT", "add": 200 },
+          { "value": "CLIMATE_CONTROL_HEAT", "add": { "math": [ "u_vitamin('heat') / 108.5" ] } },
           { "value": "NIGHT_VIS", "multiply": 6.66 }
         ]
       },
