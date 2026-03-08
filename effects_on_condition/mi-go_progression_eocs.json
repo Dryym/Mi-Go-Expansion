@@ -1,0 +1,22 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_REMOVE_RECIPES",
+    "eoc_type": "EVENT",
+    "required_event": "game_begin",
+    "condition": { "math": [ "u_mi_go_recipes != 1" ] },
+    "effect": [
+      { "math": [ "u_mi_go_recipes = 1" ] },
+      { "u_forget_recipe": "CC_*", "category": true },
+      { "u_forget_recipe": "CC_OTHER", "category": true },
+      { "u_forget_recipe": "CC_WEAPON", "category": true },
+      { "u_forget_recipe": "CC_ARMOR", "category": true },
+      { "u_forget_recipe": "CC_AMMO", "category": true },
+      { "u_forget_recipe": "CC_FOOD", "category": true },
+      { "u_forget_recipe": "CC_CHEM", "category": true },
+      { "u_forget_recipe": "CC_ELECTRONIC", "category": true },
+      { "u_forget_recipe": "CC_APPLIANCE", "category": true },
+      { "u_forget_recipe": "CC_PRACTICE", "category": true }
+    ]
+  }
+]
