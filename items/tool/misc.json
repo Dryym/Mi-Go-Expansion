@@ -1,0 +1,15 @@
+[
+  {
+    "id": "brain_scanner",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "name": { "str": "brain scanner" },
+    "description": "A small ovoid pod of undulating resinous material. At its top is a small hole from which thousands of filiform sensory devices emerge when activated. It is used in the field to scan harvested brains for information.",
+    "weight": "600 g",
+    "volume": "500 ml",
+    "material": [ "alien_resin" ],
+    "symbol": "K",
+    "color": "white",
+    "qualities": [ [ "BRAIN_SCANNING", 1 ] ]
+  }
+]
