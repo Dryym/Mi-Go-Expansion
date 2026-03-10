@@ -1,0 +1,37 @@
+[
+  {
+    "id": "prac_biofoam_beg",
+    "type": "practice",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_PRACTICE",
+    "subcategory": "CSC_PRACTICE_HEALTH",
+    "name": "medpod application (beginner)",
+    "description": "Practice utilizing a medpod to treat imaginary wounds, ensuring accurate placement of the nozzle.",
+    "skill_used": "firstaid",
+    "time": "1 h",
+    "practice_data": { "min_difficulty": 0, "max_difficulty": 1, "skill_limit": 1 },
+    "proficiencies": [ { "proficiency": "prof_wound_care", "time_multiplier": 1, "skill_penalty": 0 } ],
+    "autolearn": [ [ "firstaid", 0 ] ],
+    "flags": [ "BLIND_HARD" ],
+    "tools": [ [ [ "biofoam", -1 ], [ "plasma_disinfectant_pod", -1 ] ] ]
+  },
+  {
+    "id": "prac_biofoam_beg_int",
+    "type": "practice",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_PRACTICE",
+    "subcategory": "CSC_PRACTICE_HEALTH",
+    "name": "medpod application (advanced)",
+    "description": "Practice utilizing a medpod to treat imaginary wounds, putting focus on harder to reach locations.",
+    "skill_used": "firstaid",
+    "time": "1 h",
+    "practice_data": { "min_difficulty": 1, "max_difficulty": 2, "skill_limit": 3 },
+    "proficiencies": [
+      { "proficiency": "prof_wound_care", "required": true },
+      { "proficiency": "prof_wound_care_expert", "time_multiplier": 1, "skill_penalty": 0 }
+    ],
+    "autolearn": [ [ "firstaid", 1 ] ],
+    "flags": [ "BLIND_HARD" ],
+    "tools": [ [ [ "biofoam", -1 ], [ "plasma_disinfectant_pod", -1 ] ] ]
+  }
+]
