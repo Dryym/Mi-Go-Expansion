@@ -1,0 +1,621 @@
+[
+  {
+    "type": "practice",
+    "tools": [
+      [
+        [ "improvised_melee_weapons", 1, "LIST" ],
+        [ "basic_shivs", 1, "LIST" ],
+        [ "real_shivs", 1, "LIST" ],
+        [ "real_claws", 1, "LIST" ],
+        [ "basic_hooks", 1, "LIST" ],
+        [ "real_hooks", 1, "LIST" ],
+        [ "basic_knives", 1, "LIST" ],
+        [ "real_knives", 1, "LIST" ],
+        [ "basic_thrusting_swords", 1, "LIST" ],
+        [ "real_thrusting_swords", 1, "LIST" ],
+        [ "basic_short_swords", 1, "LIST" ],
+        [ "real_short_swords", 1, "LIST" ],
+        [ "basic_medium_swords", 1, "LIST" ],
+        [ "real_medium_swords", 1, "LIST" ],
+        [ "basic_long_swords", 1, "LIST" ],
+        [ "real_long_swords", 1, "LIST" ],
+        [ "basic_great_swords", 1, "LIST" ],
+        [ "real_great_swords", 1, "LIST" ],
+        [ "basic_axes", 1, "LIST" ],
+        [ "real_axes", 1, "LIST" ],
+        [ "real_great_axes", 1, "LIST" ],
+        [ "basic_batons", 1, "LIST" ],
+        [ "real_batons", 1, "LIST" ],
+        [ "basic_flails", 1, "LIST" ],
+        [ "real_flails", 1, "LIST" ],
+        [ "basic_great_hammers", 1, "LIST" ],
+        [ "real_great_hammers", 1, "LIST" ],
+        [ "basic_maces", 1, "LIST" ],
+        [ "real_maces", 1, "LIST" ],
+        [ "basic_quarterstaves", 1, "LIST" ],
+        [ "real_quarterstaves", 1, "LIST" ],
+        [ "basic_polearms", 1, "LIST" ],
+        [ "real_polearms", 1, "LIST" ],
+        [ "basic_spears", 1, "LIST" ],
+        [ "real_spears", 1, "LIST" ]
+      ]
+    ],
+    "id": "prac_melee_beg",
+    "name": "melee (beginner)",
+    "copy-from": "prac_melee_beg",
+    "autolearn": [ [ "melee", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [
+        [ "improvised_melee_weapons", 1, "LIST" ],
+        [ "basic_shivs", 1, "LIST" ],
+        [ "real_shivs", 1, "LIST" ],
+        [ "real_claws", 1, "LIST" ],
+        [ "basic_hooks", 1, "LIST" ],
+        [ "real_hooks", 1, "LIST" ],
+        [ "basic_knives", 1, "LIST" ],
+        [ "real_knives", 1, "LIST" ],
+        [ "basic_thrusting_swords", 1, "LIST" ],
+        [ "real_thrusting_swords", 1, "LIST" ],
+        [ "basic_short_swords", 1, "LIST" ],
+        [ "real_short_swords", 1, "LIST" ],
+        [ "basic_medium_swords", 1, "LIST" ],
+        [ "real_medium_swords", 1, "LIST" ],
+        [ "basic_long_swords", 1, "LIST" ],
+        [ "real_long_swords", 1, "LIST" ],
+        [ "basic_great_swords", 1, "LIST" ],
+        [ "real_great_swords", 1, "LIST" ],
+        [ "basic_axes", 1, "LIST" ],
+        [ "real_axes", 1, "LIST" ],
+        [ "real_great_axes", 1, "LIST" ],
+        [ "basic_batons", 1, "LIST" ],
+        [ "real_batons", 1, "LIST" ],
+        [ "basic_flails", 1, "LIST" ],
+        [ "real_flails", 1, "LIST" ],
+        [ "basic_great_hammers", 1, "LIST" ],
+        [ "real_great_hammers", 1, "LIST" ],
+        [ "basic_maces", 1, "LIST" ],
+        [ "real_maces", 1, "LIST" ],
+        [ "basic_quarterstaves", 1, "LIST" ],
+        [ "real_quarterstaves", 1, "LIST" ],
+        [ "basic_polearms", 1, "LIST" ],
+        [ "real_polearms", 1, "LIST" ],
+        [ "basic_spears", 1, "LIST" ],
+        [ "real_spears", 1, "LIST" ]
+      ]
+    ],
+    "id": "prac_melee_int",
+    "name": "melee (intermediate)",
+    "copy-from": "prac_melee_int",
+    "autolearn": [ [ "melee", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [
+        [ "basic_shivs", 1, "LIST" ],
+        [ "real_shivs", 1, "LIST" ],
+        [ "real_claws", 1, "LIST" ],
+        [ "basic_hooks", 1, "LIST" ],
+        [ "real_hooks", 1, "LIST" ],
+        [ "basic_knives", 1, "LIST" ],
+        [ "real_knives", 1, "LIST" ],
+        [ "basic_short_swords", 1, "LIST" ],
+        [ "real_short_swords", 1, "LIST" ],
+        [ "basic_medium_swords", 1, "LIST" ],
+        [ "real_medium_swords", 1, "LIST" ],
+        [ "basic_long_swords", 1, "LIST" ],
+        [ "real_long_swords", 1, "LIST" ],
+        [ "basic_great_swords", 1, "LIST" ],
+        [ "real_great_swords", 1, "LIST" ],
+        [ "basic_axes", 1, "LIST" ],
+        [ "real_axes", 1, "LIST" ],
+        [ "real_great_axes", 1, "LIST" ],
+        [ "basic_polearms", 1, "LIST" ],
+        [ "real_polearms", 1, "LIST" ]
+      ]
+    ],
+    "id": "prac_cutting_beg",
+    "name": "cutting (beginner)",
+    "copy-from": "prac_cutting_beg",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [
+        [ "real_shivs", 1, "LIST" ],
+        [ "real_claws", 1, "LIST" ],
+        [ "real_hooks", 1, "LIST" ],
+        [ "real_knives", 1, "LIST" ],
+        [ "real_short_swords", 1, "LIST" ],
+        [ "real_medium_swords", 1, "LIST" ],
+        [ "real_long_swords", 1, "LIST" ],
+        [ "real_great_swords", 1, "LIST" ],
+        [ "real_axes", 1, "LIST" ],
+        [ "real_great_axes", 1, "LIST" ],
+        [ "real_polearms", 1, "LIST" ]
+      ],
+      [ "water", "water_clean" ]
+    ],
+    "components": [ [ [ "duct_tape", 10 ] ], [ [ "stick", 1 ], [ "2x4", 1 ] ], [ [ "paper", 10 ] ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "id": "prac_cutting_int",
+    "name": "cutting (intermediate)",
+    "copy-from": "prac_cutting_int",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [
+        [ "basic_batons", 1, "LIST" ],
+        [ "real_batons", 1, "LIST" ],
+        [ "basic_flails", 1, "LIST" ],
+        [ "real_flails", 1, "LIST" ],
+        [ "basic_great_hammers", 1, "LIST" ],
+        [ "real_great_hammers", 1, "LIST" ],
+        [ "basic_maces", 1, "LIST" ],
+        [ "real_maces", 1, "LIST" ],
+        [ "basic_quarterstaves", 1, "LIST" ],
+        [ "real_quarterstaves", 1, "LIST" ]
+      ]
+    ],
+    "id": "prac_bashing_beg",
+    "name": "bashing (beginner)",
+    "copy-from": "prac_bashing_beg",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [
+        [ "real_batons", 1, "LIST" ],
+        [ "real_flails", 1, "LIST" ],
+        [ "real_great_hammers", 1, "LIST" ],
+        [ "real_maces", 1, "LIST" ],
+        [ "real_quarterstaves", 1, "LIST" ]
+      ],
+      [ "pseudo_training_dummy_heavy" ]
+    ],
+    "components": [ [ [ "duct_tape", 50 ] ], [ [ "scrap", 20 ] ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "id": "prac_bashing_int",
+    "name": "bashing (intermediate)",
+    "copy-from": "prac_bashing_int",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "id": "prac_dancing",
+    "name": "dancing",
+    "copy-from": "prac_dancing",
+    "autolearn": [ [ "dodge", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "id": "prac_dodge_beg",
+    "name": "dodge (beginner)",
+    "copy-from": "prac_dodge_beg",
+    "autolearn": [ [ "dodge", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "id": "prac_unarmed_beg",
+    "name": "unarmed (beginner)",
+    "copy-from": "prac_unarmed_beg",
+    "autolearn": [ [ "unarmed", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy", "pseudo_punching_bag" ] ],
+    "id": "prac_unarmed_int",
+    "name": "unarmed (intermediate)",
+    "copy-from": "prac_unarmed_int",
+    "autolearn": [ [ "unarmed", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_long_swords", 1, "LIST" ], [ "real_long_swords", 1, "LIST" ] ] ],
+    "id": "prac_cutting_beg_long_sword",
+    "name": "long swords (beginner)",
+    "copy-from": "prac_cutting_beg_long_sword",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_long_swords", 1, "LIST" ] ], [ "water", "water_clean" ] ],
+    "components": [ [ [ "duct_tape", 10 ] ], [ [ "stick", 1 ], [ "2x4", 1 ] ], [ [ "paper", 10 ] ] ],
+    "id": "prac_cutting_int_long_sword",
+    "name": "long swords (intermediate)",
+    "copy-from": "prac_cutting_int_long_sword",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_great_swords", 1, "LIST" ], [ "real_great_swords", 1, "LIST" ] ] ],
+    "id": "prac_cutting_beg_great_sword",
+    "name": "great swords (beginner)",
+    "copy-from": "prac_cutting_beg_great_sword",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_great_swords", 1, "LIST" ] ], [ "water", "water_clean" ] ],
+    "components": [ [ [ "duct_tape", 10 ] ], [ [ "stick", 1 ], [ "2x4", 1 ] ], [ [ "paper", 10 ] ] ],
+    "id": "prac_cutting_int_great_sword",
+    "name": "great swords (intermediate)",
+    "copy-from": "prac_cutting_int_great_sword",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "bio_blade_weapon" ] ],
+    "id": "prac_cutting_beg_bionic_sword",
+    "name": "bionic swords (beginner)",
+    "copy-from": "prac_cutting_beg_bionic_sword",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "bio_blade_weapon" ], [ "water", "water_clean" ] ],
+    "components": [ [ [ "duct_tape", 10 ] ], [ [ "stick", 1 ], [ "2x4", 1 ] ], [ [ "paper", 10 ] ] ],
+    "id": "prac_cutting_int_bionic_sword",
+    "name": "bionic swords (intermediate)",
+    "copy-from": "prac_cutting_int_bionic_sword",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_great_axes", 1, "LIST" ] ] ],
+    "id": "prac_cutting_beg_great_axe",
+    "name": "great axes (beginner)",
+    "copy-from": "prac_cutting_beg_great_axe",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_great_axes", 1, "LIST" ] ], [ "pseudo_training_dummy_heavy" ] ],
+    "components": [ [ [ "duct_tape", 50 ] ], [ [ "scrap", 20 ] ] ],
+    "id": "prac_cutting_int_great_axe",
+    "name": "great axes (intermediate)",
+    "copy-from": "prac_cutting_int_great_axe",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "handaxes_axes", 1, "LIST" ] ] ],
+    "id": "prac_cutting_beg_hand_axe",
+    "name": "hand axes (beginner)",
+    "copy-from": "prac_cutting_beg_hand_axe",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "handaxes_axes", 1, "LIST" ] ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_cutting_int_hand_axe",
+    "name": "hand axes (intermediate)",
+    "copy-from": "prac_cutting_int_hand_axe",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_great_hammers", 1, "LIST" ], [ "real_great_hammers", 1, "LIST" ] ] ],
+    "id": "prac_bashing_beg_great_hammer",
+    "name": "great hammers (beginner)",
+    "copy-from": "prac_bashing_beg_great_hammer",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_great_hammers", 1, "LIST" ] ], [ "pseudo_training_dummy_heavy" ] ],
+    "components": [ [ [ "duct_tape", 50 ] ], [ [ "scrap", 20 ] ] ],
+    "id": "prac_bashing_int_great_hammer",
+    "name": "great hammers (intermediate)",
+    "copy-from": "prac_bashing_int_great_hammer",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_flails", 1, "LIST" ], [ "real_flails", 1, "LIST" ] ] ],
+    "id": "prac_bashing_beg_flail",
+    "name": "flails (beginner)",
+    "copy-from": "prac_bashing_beg_flail",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_flails", 1, "LIST" ], [ "real_flails", 1, "LIST" ] ], [ "pseudo_training_dummy_heavy" ] ],
+    "components": [ [ [ "duct_tape", 50 ] ], [ [ "scrap", 20 ] ] ],
+    "id": "prac_bashing_int_flail",
+    "name": "flails (intermediate)",
+    "copy-from": "prac_bashing_int_flail",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_maces", 1, "LIST" ], [ "real_maces", 1, "LIST" ] ] ],
+    "id": "prac_bashing_beg_mace",
+    "name": "maces (beginner)",
+    "copy-from": "prac_bashing_beg_mace",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_maces", 1, "LIST" ] ], [ "pseudo_training_dummy_heavy" ] ],
+    "components": [ [ [ "duct_tape", 50 ] ], [ [ "scrap", 20 ] ] ],
+    "id": "prac_bashing_int_mace",
+    "name": "maces (intermediate)",
+    "copy-from": "prac_bashing_int_mace",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_spears", 1, "LIST" ], [ "real_spears", 1, "LIST" ] ] ],
+    "id": "prac_stabbing_beg_spear",
+    "name": "spears (beginner)",
+    "copy-from": "prac_stabbing_beg_spear",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_spears", 1, "LIST" ] ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_stabbing_int_spear",
+    "name": "spears (intermediate)",
+    "copy-from": "prac_stabbing_int_spear",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_thrusting_swords", 1, "LIST" ], [ "real_thrusting_swords", 1, "LIST" ], "zweihander" ] ],
+    "id": "prac_stabbing_beg_thrust",
+    "name": "long thrusting swords (beginner)",
+    "copy-from": "prac_stabbing_beg_thrust",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [ [ "real_thrusting_swords", 1, "LIST" ], "zweihander" ],
+      [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ]
+    ],
+    "id": "prac_stabbing_int_thrust",
+    "name": "long thrusting swords (intermediate)",
+    "copy-from": "prac_stabbing_int_thrust",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "qualities": [ { "id": "RIFLE", "level": 1 } ],
+    "id": "prac_bashing_beg_rifle",
+    "name": "rifle CQC (beginner)",
+    "copy-from": "prac_bashing_beg_rifle",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "qualities": [ { "id": "RIFLE", "level": 1 } ],
+    "id": "prac_bashing_int_rifle",
+    "name": "rifle CQC (intermediate)",
+    "copy-from": "prac_bashing_int_rifle",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "qualities": [ { "id": "PISTOL", "level": 1 } ],
+    "id": "prac_bashing_beg_pistol",
+    "name": "pistol CQC (beginner)",
+    "copy-from": "prac_bashing_beg_pistol",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "qualities": [ { "id": "PISTOL", "level": 1 } ],
+    "id": "prac_bashing_int_pistol",
+    "name": "pistol CQC (intermediate)",
+    "copy-from": "prac_bashing_int_pistol",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_knives", 1, "LIST" ], [ "real_knives", 1, "LIST" ] ] ],
+    "id": "prac_stabbing_beg_knife",
+    "name": "knives (beginner)",
+    "copy-from": "prac_stabbing_beg_knife",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_knives", 1, "LIST" ] ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_stabbing_int_knife",
+    "name": "knives (intermediate)",
+    "copy-from": "prac_stabbing_int_knife",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_shivs", 1, "LIST" ], [ "real_shivs", 1, "LIST" ] ] ],
+    "id": "prac_stabbing_beg_shiv",
+    "name": "shivs (beginner)",
+    "copy-from": "prac_stabbing_beg_shiv",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_shivs", 1, "LIST" ] ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_stabbing_int_shiv",
+    "name": "shivs (intermediate)",
+    "copy-from": "prac_stabbing_int_shiv",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_batons", 1, "LIST" ], [ "real_batons", 1, "LIST" ] ] ],
+    "id": "prac_bashing_beg_baton",
+    "name": "batons (beginner)",
+    "copy-from": "prac_bashing_beg_baton",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_batons", 1, "LIST" ] ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_bashing_int_baton",
+    "name": "batons (intermediate)",
+    "copy-from": "prac_bashing_int_baton",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_medium_swords", 1, "LIST" ], [ "real_medium_swords", 1, "LIST" ] ] ],
+    "id": "prac_cutting_beg_med_sword",
+    "name": "medium swords (beginner)",
+    "copy-from": "prac_cutting_beg_med_sword",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_medium_swords", 1, "LIST" ] ], [ "water", "water_clean" ] ],
+    "components": [ [ [ "duct_tape", 10 ] ], [ [ "stick", 1 ], [ "2x4", 1 ] ], [ [ "paper", 10 ] ] ],
+    "id": "prac_cutting_int_med_sword",
+    "name": "medium swords (intermediate)",
+    "copy-from": "prac_cutting_int_med_sword",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_short_swords", 1, "LIST" ], [ "real_short_swords", 1, "LIST" ] ] ],
+    "id": "prac_cutting_beg_short_sword",
+    "name": "short swords (beginner)",
+    "copy-from": "prac_cutting_beg_short_sword",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_short_swords", 1, "LIST" ] ], [ "water", "water_clean" ] ],
+    "components": [ [ [ "duct_tape", 10 ] ], [ [ "stick", 1 ], [ "2x4", 1 ] ], [ [ "paper", 10 ] ] ],
+    "id": "prac_cutting_int_short_sword",
+    "name": "short swords (intermediate)",
+    "copy-from": "prac_cutting_int_short_sword",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_quarterstaves", 1, "LIST" ], [ "real_quarterstaves", 1, "LIST" ] ] ],
+    "id": "prac_bashing_beg_staff",
+    "name": "quarterstaves (beginner)",
+    "copy-from": "prac_bashing_beg_staff",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_quarterstaves", 1, "LIST" ] ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_bashing_int_staff",
+    "name": "quarterstaves (intermediate)",
+    "copy-from": "prac_bashing_int_staff",
+    "autolearn": [ [ "bashing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_thrusting_swords", 1, "LIST" ], [ "real_thrusting_swords", 1, "LIST" ] ] ],
+    "id": "prac_stabbing_beg_fencing",
+    "name": "fencing (beginner)",
+    "copy-from": "prac_stabbing_beg_fencing",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_thrusting_swords", 1, "LIST" ] ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_stabbing_int_fencing",
+    "name": "fencing (intermediate)",
+    "copy-from": "prac_stabbing_int_fencing",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_claws", 1, "LIST" ] ] ],
+    "id": "prac_cutting_beg_claw",
+    "name": "claw weapons (beginner)",
+    "copy-from": "prac_cutting_beg_claw",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_claws", 1, "LIST" ] ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_cutting_int_claw",
+    "name": "claw weapons (intermediate)",
+    "copy-from": "prac_cutting_int_claw",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_hooks", 1, "LIST" ], [ "real_hooks", 1, "LIST" ] ] ],
+    "id": "prac_cutting_beg_hooking",
+    "name": "hooking weapons (beginner)",
+    "copy-from": "prac_cutting_beg_hooking",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_hooks", 1, "LIST" ] ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_cutting_int_hooking",
+    "name": "hooking weapons (intermediate)",
+    "copy-from": "prac_cutting_int_hooking",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "basic_polearms", 1, "LIST" ], [ "real_polearms", 1, "LIST" ] ] ],
+    "id": "prac_stabbing_beg_polearm",
+    "name": "polearms (beginner)",
+    "copy-from": "prac_stabbing_beg_polearm",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "real_polearms", 1, "LIST" ] ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_stabbing_int_polearm",
+    "name": "polearms (intermediate)",
+    "copy-from": "prac_stabbing_int_polearm",
+    "autolearn": [ [ "stabbing", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "bio_blade_weapon", "bio_claws_weapon" ] ],
+    "id": "prac_cutting_beg_bionics",
+    "name": "bionic weapons (beginner)",
+    "copy-from": "prac_cutting_beg_bionics",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "bio_blade_weapon", "bio_claws_weapon" ], [ "pseudo_training_dummy_light", "pseudo_training_dummy_heavy" ] ],
+    "id": "prac_cutting_int_bionics",
+    "name": "bionic weapons (intermediate)",
+    "copy-from": "prac_cutting_int_bionics",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "whips", 1, "LIST" ] ] ],
+    "id": "prac_whipping_beg",
+    "name": "whips (beginner)",
+    "copy-from": "prac_whipping_beg",
+    "autolearn": [ [ "cutting", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [ [ "whips", 1, "LIST" ] ],
+      [ [ "candle", 10 ] ],
+      [ [ "lighter", 1 ], [ "ref_lighter", 1 ], [ "survival_match", 1 ], [ "match", 1 ] ]
+    ],
+    "id": "prac_whipping_int",
+    "name": "whips (intermediate)",
+    "copy-from": "prac_whipping_int",
+    "autolearn": [ [ "cutting", 11 ] ]
+  }
+]

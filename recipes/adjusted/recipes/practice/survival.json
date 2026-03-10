@@ -1,0 +1,25 @@
+[
+  {
+    "type": "practice",
+    "components": [ [ [ "rock", 2 ], [ "sharp_rock", 2 ] ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 } ],
+    "id": "prac_knapping",
+    "name": "basic knapping",
+    "copy-from": "prac_knapping",
+    "autolearn": [ [ "survival", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "rock", 3 ], [ "sharp_rock", 3 ] ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "HAMMER_SOFT", "level": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "PUNCH", "level": 1 }
+    ],
+    "id": "prac_knapping_speed",
+    "name": "speed knapping",
+    "copy-from": "prac_knapping_speed",
+    "autolearn": [ [ "survival", 11 ] ]
+  }
+]

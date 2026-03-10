@@ -1,0 +1,10 @@
+[
+  {
+    "type": "practice",
+    "components": [ [ [ "cable", 5 ] ], [ [ "e_scrap", 2 ] ] ],
+    "id": "prac_soldering",
+    "name": "electronics soldering",
+    "copy-from": "prac_soldering",
+    "autolearn": [ [ "electronics", 11 ] ]
+  }
+]

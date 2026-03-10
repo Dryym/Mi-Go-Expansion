@@ -1,0 +1,20 @@
+[
+  {
+    "type": "practice",
+    "tools": [ [ "lock" ] ],
+    "components": [ [ [ "crude_picklock", 1 ] ] ],
+    "id": "prac_lockpicking_crude",
+    "name": "lockpicking (improvised)",
+    "copy-from": "prac_lockpicking_crude",
+    "autolearn": [ [ "traps", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "lock" ] ],
+    "qualities": [ { "id": "LOCKPICK", "level": 5 } ],
+    "id": "prac_lockpicking",
+    "name": "lockpicking",
+    "copy-from": "prac_lockpicking",
+    "autolearn": [ [ "traps", 11 ] ]
+  }
+]

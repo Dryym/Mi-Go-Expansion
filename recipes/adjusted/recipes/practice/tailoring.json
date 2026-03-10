@@ -1,0 +1,94 @@
+[
+  {
+    "type": "practice",
+    "id": "prac_knitting",
+    "name": "knitting",
+    "copy-from": "prac_knitting",
+    "autolearn": [ [ "tailor", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "sheet_cotton", 1 ], [ "sheet_cotton_patchwork", 1 ], [ "cotton_patchwork", 4 ], [ "scrap_cotton", 8 ] ] ],
+    "id": "prac_closures",
+    "name": "garment closures",
+    "copy-from": "prac_closures",
+    "autolearn": [ [ "tailor", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "water", 2 ], [ "water_clean", 2 ] ], [ [ "cotton_patchwork", 1 ] ] ],
+    "id": "prac_closures_waterproofing",
+    "name": "fabric waterproofing",
+    "copy-from": "prac_closures_waterproofing",
+    "autolearn": [ [ "tailor", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [
+      [
+        [ "sheet_kevlar", 1 ],
+        [ "sheet_kevlar_patchwork", 1 ],
+        [ "kevlar_patch", 6 ],
+        [ "scrap_kevlar", 20 ],
+        [ "sheet_nomex", 1 ],
+        [ "sheet_nomex_patchwork", 1 ],
+        [ "nomex", 6 ],
+        [ "scrap_nomex", 20 ]
+      ]
+    ],
+    "id": "prac_polymerworking",
+    "name": "advanced polymer sewing",
+    "copy-from": "prac_polymerworking",
+    "autolearn": [ [ "tailor", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "sheet_lycra", 1 ], [ "sheet_lycra_patchwork", 1 ], [ "lycra_patch", 6 ] ] ],
+    "id": "prac_elastics",
+    "name": "stretch fabric",
+    "copy-from": "prac_elastics",
+    "autolearn": [ [ "tailor", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "sheet_cotton", 2 ] ], [ [ "gambeson_batting", 2 ] ] ],
+    "qualities": [ { "id": "SEW", "level": 2 }, { "id": "FABRIC_CUT", "level": 1 } ],
+    "id": "prac_quilting",
+    "name": "fabric quilting",
+    "copy-from": "prac_quilting",
+    "autolearn": [ [ "tailor", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "id": "prac_leather_beg",
+    "name": "leatherworking (beginner)",
+    "copy-from": "prac_leather_beg",
+    "autolearn": [ [ "tailor", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "leather", 6 ], [ "tanned_hide", 1 ] ] ],
+    "qualities": [ { "id": "LEATHER_AWL", "level": 1 } ],
+    "id": "prac_leather_adv",
+    "name": "leatherworking (advanced)",
+    "copy-from": "prac_leather_adv",
+    "autolearn": [ [ "tailor", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "chitin_piece", 6 ], [ "acidchitin_piece", 6 ] ] ],
+    "qualities": [ { "id": "LEATHER_AWL", "level": 1 } ],
+    "id": "prac_chitinworking",
+    "name": "chitinworking",
+    "copy-from": "prac_chitinworking",
+    "autolearn": [ [ "tailor", 11 ], [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "gloves_light", 1 ], [ "gloves_liner", 1 ], [ "long_glove_white", 1 ] ] ],
+    "id": "prac_articulation",
+    "name": "joint articulation",
+    "copy-from": "prac_articulation",
+    "autolearn": [ [ "tailor", 11 ] ]
+  }
+]

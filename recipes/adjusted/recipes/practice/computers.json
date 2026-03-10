@@ -1,0 +1,26 @@
+[
+  {
+    "type": "practice",
+    "tools": [ [ [ "laptop", 10 ], [ "eink_tablet_pc", 1 ], [ "smart_phone", 5 ] ] ],
+    "id": "prac_computer_beg",
+    "name": "computer (beginner)",
+    "copy-from": "prac_computer_beg",
+    "autolearn": [ [ "computer", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "laptop", 50 ] ] ],
+    "id": "prac_computer_int",
+    "name": "computer (intermediate)",
+    "copy-from": "prac_computer_int",
+    "autolearn": [ [ "computer", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "laptop", 50 ] ], [ "software_hacking" ] ],
+    "id": "prac_computer_adv",
+    "name": "computer (advanced)",
+    "copy-from": "prac_computer_adv",
+    "autolearn": [ [ "computer", 11 ] ]
+  }
+]

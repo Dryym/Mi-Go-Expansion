@@ -1,0 +1,32 @@
+[
+  {
+    "type": "practice",
+    "tools": [
+      [
+        [ "bandages", -1 ],
+        [ "bandages_makeshift", -1 ],
+        [ "bandages_makeshift_bleached", -1 ],
+        [ "bandages_makeshift_boiled", -1 ]
+      ]
+    ],
+    "id": "prac_health_care_beg",
+    "name": "bandaging (beginner)",
+    "copy-from": "prac_health_care_beg",
+    "autolearn": [ [ "firstaid", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [
+        [ "bandages", -1 ],
+        [ "bandages_makeshift", -1 ],
+        [ "bandages_makeshift_bleached", -1 ],
+        [ "bandages_makeshift_boiled", -1 ]
+      ]
+    ],
+    "id": "prac_health_care_int",
+    "name": "bandaging (advanced)",
+    "copy-from": "prac_health_care_int",
+    "autolearn": [ [ "firstaid", 11 ] ]
+  }
+]

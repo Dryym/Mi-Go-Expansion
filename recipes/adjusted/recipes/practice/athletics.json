@@ -1,0 +1,41 @@
+[
+  {
+    "type": "practice",
+    "id": "prac_athletics_beg",
+    "name": "athletics (beginner)",
+    "copy-from": "prac_athletics_beg",
+    "autolearn": [ [ "swimming", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "pseudo_exercise_machine", "pseudo_punching_bag", "pseudo_ergometer_mechanical", "pseudo_treadmill_mechanical" ] ],
+    "id": "prac_athletics_int",
+    "name": "athletics (intermediate)",
+    "copy-from": "prac_athletics_int",
+    "autolearn": [ [ "swimming", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "parkour_practice" ] ],
+    "id": "prac_parkour",
+    "name": "parkour",
+    "copy-from": "prac_parkour",
+    "autolearn": [ [ "swimming", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "pseudo_exercise_machine", "pseudo_punching_bag", "pseudo_ergometer_mechanical", "pseudo_treadmill_mechanical" ] ],
+    "id": "prac_athletic_form",
+    "name": "athlete's form (expert)",
+    "copy-from": "prac_athletic_form",
+    "autolearn": [ [ "swimming", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ "pseudo_exercise_machine", "pseudo_ergometer_mechanical" ] ],
+    "id": "prac_master_athletic_form",
+    "name": "athlete's form (master)",
+    "copy-from": "prac_master_athletic_form",
+    "autolearn": [ [ "swimming", 11 ] ]
+  }
+]

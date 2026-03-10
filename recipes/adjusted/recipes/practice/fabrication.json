@@ -1,0 +1,176 @@
+[
+  {
+    "type": "practice",
+    "components": [
+      [ [ "arrow_fire_hardened_fletched", 4 ], [ "bolt_crude", 4 ] ],
+      [ [ "adhesive", 1, "LIST" ], [ "filament", 20, "LIST" ] ],
+      [ [ "fletching", 1, "LIST" ] ]
+    ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 2 } ],
+    "id": "prac_fletching",
+    "name": "fletching",
+    "copy-from": "prac_fletching",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "stick", 1 ], [ "2x4", 1 ] ] ],
+    "qualities": [ { "id": "CUT", "level": 2 } ],
+    "id": "prac_carving",
+    "name": "carving",
+    "copy-from": "prac_carving",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "stick", 4 ], [ "2x4", 2 ] ], [ [ "nails", 20, "LIST" ] ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 2 } ],
+    "id": "prac_carpentry_basic",
+    "name": "basic carpentry",
+    "copy-from": "prac_carpentry_basic",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "sheet_metal_small", 4 ] ] ],
+    "id": "prac_welding_beg",
+    "name": "welding (beginner)",
+    "copy-from": "prac_welding_beg",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "components": [ [ [ "sheet_metal_small", 6 ] ] ],
+    "id": "prac_welding_adv",
+    "name": "welding (advanced)",
+    "copy-from": "prac_welding_adv",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
+    "components": [ [ [ "copper_scrap_equivalent", 10, "LIST" ] ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "id": "prac_redsmithing",
+    "name": "redsmithing (beginner)",
+    "copy-from": "prac_redsmithing",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "casting_mold", -1 ] ], [ [ "metalworking_tongs_any", 1, "LIST" ] ] ],
+    "components": [ [ [ "scrap_bronze", 16 ] ] ],
+    "id": "prac_redsmithing_adv",
+    "name": "redsmithing (advanced)",
+    "copy-from": "prac_redsmithing_adv",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "id": "prac_blacksmithing",
+    "name": "blacksmithing",
+    "copy-from": "prac_blacksmithing",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "swage", -1 ] ], [ [ "sheet", -1 ] ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "id": "prac_armorsmithing",
+    "name": "armorsmithing",
+    "copy-from": "prac_armorsmithing",
+    "autolearn": [ [ "fabrication", 11 ], [ "tailor", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "swage", -1 ] ], [ [ "hotcut_any", 1, "LIST" ] ] ],
+    "qualities": [ { "id": "GRIND", "level": 2 } ],
+    "id": "prac_bladesmith",
+    "name": "bladesmithing",
+    "copy-from": "prac_bladesmith",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "drift", -1 ] ] ],
+    "id": "prac_toolsmithing",
+    "name": "manual tooling",
+    "copy-from": "prac_toolsmithing",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "forge", 100 ] ], [ [ "metalworking_tongs_any", 1, "LIST" ] ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 } ],
+    "id": "prac_case_hardening",
+    "name": "case hardening",
+    "copy-from": "prac_case_hardening",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [ [ "forge", 100 ] ],
+      [ [ "metalworking_tongs_any", 1, "LIST" ] ],
+      [ [ "metal_tank", -1 ] ],
+      [ [ "water", -120 ], [ "water_clean", -120 ] ]
+    ],
+    "qualities": [ { "id": "HAMMER", "level": 3 } ],
+    "id": "prac_quenching",
+    "name": "quenching & tempering",
+    "copy-from": "prac_quenching",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "fake_lathe", 40 ] ] ],
+    "components": [ [ [ "aluminum_bar_round", 1 ], [ "small_aluminum_bar_round", 3 ] ] ],
+    "id": "prac_machining_lathe_aluminum",
+    "name": "lathe turning (aluminum)",
+    "copy-from": "prac_machining_lathe_aluminum",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "fake_lathe", 50 ] ] ],
+    "components": [
+      [
+        [ "lc_steel_bar_round", 1 ],
+        [ "mc_steel_bar_round", 1 ],
+        [ "pipe", 2 ],
+        [ "small_lc_steel_bar_round", 3 ],
+        [ "small_mc_steel_bar_round", 3 ]
+      ]
+    ],
+    "id": "prac_machining_lathe_steel",
+    "name": "lathe turning (steel)",
+    "copy-from": "prac_machining_lathe_steel",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "fake_mill_vertical", 50 ] ] ],
+    "components": [
+      [
+        [ "lc_steel_bar_flat", 1 ],
+        [ "mc_steel_bar_flat", 1 ],
+        [ "small_lc_steel_bar_flat", 3 ],
+        [ "small_mc_steel_bar_flat", 3 ]
+      ]
+    ],
+    "id": "prac_machining_mill_steel",
+    "name": "vertical milling (steel)",
+    "copy-from": "prac_machining_mill_steel",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "fake_mill_vertical", 40 ] ] ],
+    "components": [ [ [ "aluminum_bar_flat", 1 ], [ "small_aluminum_bar_flat", 3 ] ] ],
+    "id": "prac_machining_mill_aluminum",
+    "name": "vertical milling (aluminum)",
+    "copy-from": "prac_machining_mill_aluminum",
+    "autolearn": [ [ "fabrication", 11 ] ]
+  }
+]

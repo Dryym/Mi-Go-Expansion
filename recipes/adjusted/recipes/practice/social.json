@@ -1,0 +1,18 @@
+[
+  {
+    "type": "practice",
+    "tools": [ [ [ "mirror", -1 ], [ "laptop", 10 ], [ "smart_phone", 5 ] ] ],
+    "id": "prac_speech_beg",
+    "name": "social (beginner)",
+    "copy-from": "prac_speech_beg",
+    "autolearn": [ [ "speech", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "mirror", -1 ], [ "laptop", 10 ], [ "smart_phone", 5 ] ] ],
+    "id": "prac_speech_int",
+    "name": "social (intermediate)",
+    "copy-from": "prac_speech_int",
+    "autolearn": [ [ "speech", 11 ] ]
+  }
+]

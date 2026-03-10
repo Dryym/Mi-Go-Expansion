@@ -1,0 +1,195 @@
+[
+  {
+    "type": "practice",
+    "tools": [
+      [
+        "basketball",
+        "indoor_volleyball",
+        "beach_volleyball",
+        "baseball",
+        "football",
+        "golf_ball",
+        "rock",
+        "sharp_rock",
+        "rock_flaking",
+        "brick",
+        "wood_block",
+        "lawn_dart",
+        "weighted_dart"
+      ]
+    ],
+    "id": "prac_throw_beg",
+    "name": "throwing (beginner)",
+    "copy-from": "prac_throw_beg",
+    "autolearn": [ [ "throw", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [
+        "selfbow",
+        "shortbow",
+        "compbow",
+        "compbow_high",
+        "compbow_low",
+        "compositebow",
+        "reflexbow",
+        "recurbow",
+        "takedown_recurbow",
+        "longbow",
+        "woodgreatbow",
+        "compgreatbow",
+        "reflexrecurvebow"
+      ]
+    ],
+    "components": [ [ [ "arrow_fire_hardened_fletched", 10 ] ] ],
+    "id": "prac_archery_beg",
+    "name": "archery (beginner)",
+    "copy-from": "prac_archery_beg",
+    "autolearn": [ [ "archery", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "crossbows", 1, "LIST" ] ] ],
+    "components": [ [ [ "bolt_crude", 10 ] ] ],
+    "id": "prac_crossbow_beg",
+    "name": "crossbows (beginner)",
+    "copy-from": "prac_crossbow_beg",
+    "autolearn": [ [ "rifle", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [
+        "shortbow",
+        "compbow",
+        "compbow_high",
+        "compbow_low",
+        "compositebow",
+        "reflexbow",
+        "recurbow",
+        "takedown_recurbow",
+        "longbow",
+        "woodgreatbow",
+        "compgreatbow",
+        "reflexrecurvebow"
+      ],
+      [ "pseudo_archery_target_box", "pseudo_archery_target_bale" ]
+    ],
+    "components": [ [ [ "arrow_wood_heavy", 20 ] ] ],
+    "id": "prac_archery_int",
+    "name": "archery (intermediate)",
+    "copy-from": "prac_archery_int",
+    "autolearn": [ [ "archery", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "crossbows", 1, "LIST" ] ], [ "pseudo_archery_target_box", "pseudo_archery_target_bale" ] ],
+    "components": [ [ [ "bolt_wood", 20 ] ] ],
+    "id": "prac_crossbow_int",
+    "name": "crossbows (intermediate)",
+    "copy-from": "prac_crossbow_int",
+    "autolearn": [ [ "rifle", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [
+        "shortbow",
+        "compbow",
+        "compbow_high",
+        "compbow_low",
+        "compositebow",
+        "reflexbow",
+        "recurbow",
+        "takedown_recurbow",
+        "longbow",
+        "woodgreatbow",
+        "compgreatbow",
+        "reflexrecurvebow"
+      ]
+    ],
+    "id": "prac_archery_form",
+    "name": "expert archer's form",
+    "copy-from": "prac_archery_form",
+    "autolearn": [ [ "archery", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [
+        "compbow",
+        "compbow_high",
+        "compositebow",
+        "reflexbow",
+        "recurbow",
+        "takedown_recurbow",
+        "longbow",
+        "woodgreatbow",
+        "compgreatbow"
+      ]
+    ],
+    "id": "prac_master_archery_form",
+    "name": "master archer's form",
+    "copy-from": "prac_master_archery_form",
+    "autolearn": [ [ "archery", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "qualities": [ { "id": "GUN", "level": 1 } ],
+    "id": "prac_marksmanship_beg",
+    "name": "marksmanship (beginner)",
+    "copy-from": "prac_marksmanship_beg",
+    "autolearn": [ [ "gun", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "aim_game", 5 ] ] ],
+    "qualities": [ { "id": "PISTOL", "level": 1 } ],
+    "id": "prac_handguns_beg",
+    "name": "handguns (beginner)",
+    "copy-from": "prac_handguns_beg",
+    "autolearn": [ [ "pistol", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "aim_game", 5 ] ] ],
+    "qualities": [ { "id": "RIFLE", "level": 1 } ],
+    "id": "prac_rifles_beg",
+    "name": "rifles (beginner)",
+    "copy-from": "prac_rifles_beg",
+    "autolearn": [ [ "rifle", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "aim_game", 5 ] ] ],
+    "qualities": [ { "id": "SHOTGUN", "level": 1 } ],
+    "id": "prac_shotgun_beg",
+    "name": "shotguns (beginner)",
+    "copy-from": "prac_shotgun_beg",
+    "autolearn": [ [ "shotgun", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [ [ [ "aim_game", 5 ] ] ],
+    "qualities": [ { "id": "SMG", "level": 1 } ],
+    "id": "prac_smg_beg",
+    "name": "submachine guns (beginner)",
+    "copy-from": "prac_smg_beg",
+    "autolearn": [ [ "smg", 11 ] ]
+  },
+  {
+    "type": "practice",
+    "tools": [
+      [ [ "air_launcher", -1 ] ],
+      [ [ "golf_ball", -1 ], [ "baseball", -1 ], [ "magic_8_ball", -1 ], [ "pool_ball", -1 ] ],
+      [ [ "hand_pump", -1 ] ],
+      [ [ "hose", -1 ] ],
+      [ [ "pseudo_archery_target_box", -1 ], [ "pseudo_archery_target_bale", -1 ] ]
+    ],
+    "id": "prac_launch_beg",
+    "name": "launchers (beginner)",
+    "copy-from": "prac_launch_beg",
+    "autolearn": [ [ "launcher", 11 ] ]
+  }
+]
